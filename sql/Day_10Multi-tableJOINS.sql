@@ -31,3 +31,5 @@ JOIN products p on p.product_id = oi.product_id
 group by c.customer_name
 order by total_revenue_per_customer desc
 LIMIT 1
+
+

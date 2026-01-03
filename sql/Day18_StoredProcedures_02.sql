@@ -20,9 +20,9 @@ BEGIN
     RETURN QUERY
     SELECT 
         c.customer_id,
-        c.customer_name,
+        c.customer_name::TEXT,
         o.order_date,
-        p.product_name,
+        p.product_name::TEXT,
         oi.quantity,
         p.price
     FROM customers c 

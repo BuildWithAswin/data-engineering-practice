@@ -37,4 +37,51 @@ order by month asc
 
 --Orders placed today.
 select * from orders o
-where o.order_date = CURRENT_DATE;
+where DATE_TRUNC('day', o.order_date) = CURRENT_DATE;
+
+-----------------------------------
+select * from orders
+order by is_delivered desc
+
+ALTER TABLE orders
+ADD COLUMN delivery_date DATE;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '5 days'
+WHERE order_id = 2;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '4 days'
+WHERE order_id = 3;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '2 days'
+WHERE order_id = 11;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '2 days'
+WHERE order_id = 13;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '4 days'
+WHERE order_id = 14;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '3 days'
+WHERE order_id = 16;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '2 days'
+WHERE order_id = 18;
+UPDATE orders
+SET delivery_date = order_date + INTERVAL '4 days'
+WHERE order_id = 19;
+---------------------------------
+
+--Difference between two dates.
+select o.order_id,o.order_date,o.delivery_date,
+o.delivery_date - o.order_date as days_taken
+from orders o 
+where delivery_date is NOT NULL;
+
+--Extract year from order date.
+select EXTRACT(YEAR from o.order_date) as order_year,
+count (*) as total_orders
+from orders o
+group by order_year
+
+
+

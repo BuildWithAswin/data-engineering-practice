@@ -1,4 +1,5 @@
 --Procedure to update salary and show old and new salary
+DROP FUNCTION update_salary_v2(a INT, b INT)
 
 CREATE OR REPLACE FUNCTION update_salary_v2(
     p_empl_id INT,

@@ -15,6 +15,7 @@ select c.customer_id,c.customer_name,o.order_date,o.total_amount,
 sum(total_amount) OVER (PARTITION BY c.customer_id order by order_date) AS running_total
 from customers c 
 JOIN orders o on o.customer_id = c.customer_id
+
 order by c.customer_name,o.order_date asc 
 
 --Get previous order amount (LAG)
@@ -72,4 +73,23 @@ order by o.order_date asc
 select c.customer_id,c.customer_name,o.order_date,o.total_amount
 from customers c
 JOIN orders o on o.customer_id = c.customer_id
-order by o.total_amount,o.order_date desc 
+order by o.order_date,o.total_amount desc 
+
+--Lag previous order amount.
+select c.customer_id,
+       c.customer_name,
+       o.order_date,
+       o.total_amount,
+LAG(o.total_amount) 
+OVER(PARTITION BY c.customer_id order by o.order_date) AS previous_amount
+from customers c 
+JOIN orders o on o.customer_id = c.customer_id
+order by c.customer_name,o.order_date asc
+
+
+
+--Lead next salary value.
+select e.name,e.salary,
+LEAD(e.salary) OVER(order by e.salary)  as next_salary
+from employees e 
+

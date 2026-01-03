@@ -23,7 +23,6 @@ END;
 $$
 
 
-select * from employees;
 
 select * from update_salary(1, 70000)
 

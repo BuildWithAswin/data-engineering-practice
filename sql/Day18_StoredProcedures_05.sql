@@ -19,7 +19,7 @@ DECLARE
      v_old_salary INT;
      v_name TEXT;
 BEGIN
-    FOR EACH rec in ARRAY p_updates
+    FOREACH rec in ARRAY p_updates
     LOOP
 --capture old salary info
      select name,salary INTO v_name,v_old_salary 

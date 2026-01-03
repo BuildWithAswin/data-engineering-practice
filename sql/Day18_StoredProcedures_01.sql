@@ -54,9 +54,23 @@ SELECT create_order(
     ]
 );
 
+-----------------------------------------           
+
+SELECT setval(
+    pg_get_serial_sequence('order_items', 'item_id'),
+    (SELECT MAX(customer_id) FROM customers) + 1
+);
+
+ALTER TABLE order_items
+ALTER COLUMN item_id
+ADD GENERATED ALWAYS AS IDENTITY;
 
 
-
+SELECT setval(
+    pg_get_serial_sequence('order_items', 'item_id'),
+    (SELECT COALESCE(MAX(item_id), 0) FROM order_items) + 1,
+    false
+);
 
 
 

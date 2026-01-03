@@ -17,7 +17,6 @@ BEGIN
 END
 $$;
 
-
 COMMIT;
 
 select * from transactions_log

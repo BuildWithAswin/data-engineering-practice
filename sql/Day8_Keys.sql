@@ -16,5 +16,23 @@ select c.customer_id,c.customer_name, o.order_id
 from customers c 
 LEFT JOIN orders o on c.customer_id = o.order_id;
 
+--right join
+
+select c.customer_id,c.customer_name, o.order_id
+from customers c 
+RIGHT JOIN orders o on c.customer_id = o.order_id;
+
+--Join with aggregate
+    --Total orders per customer
+
+select c.customer_name AS customer, count(o.order_id) AS orders
+from customers c 
+LEFT JOIN orders o on c.customer_id = o.order_id 
+group by c.customer_name
+
+
+
+
+
 
 

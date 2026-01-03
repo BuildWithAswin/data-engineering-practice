@@ -47,7 +47,14 @@ LEFT JOIN orders o on o.customer_id = c.customer_id
 where o.order_id is NULL 
 
 --Latest order per customer.
-select c.customer_name,o.order_id ,o.order_date
+select c.customer_name,o.order_date 
 from customers c
-JOIN orders o on o.customer_id = c.customer_id 
-group by o.order_date
+JOIN orders o on o.customer_id = c.customer_id
+where o.order_date = (select MAX(o2.order_date) 
+from orders o2
+where o.customer_id = o2.customer_id)
+order by order_date desc 
+
+
+
+
