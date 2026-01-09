@@ -75,3 +75,5 @@ from (
 where rn = 1;
 
 select * from stg_customers
+
+

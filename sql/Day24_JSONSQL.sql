@@ -47,3 +47,7 @@ values
   set profile = jsonb_set(profile,'{name}','"Aswin kumar"')
 
   --Convert JSON to relational form.
+  SELECT
+    user_id,
+    profile ->'adress' ->> 'city' AS city
+FROM raw_user_profiles

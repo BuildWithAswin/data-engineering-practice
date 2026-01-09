@@ -34,11 +34,67 @@ select * from numbers
 
 --Rank inside CTE.
 --Rank customers based on total spending inside CTE
-select c.customer_name,o.total_amount,
-RANK() OVER(order by o.total_amount desc) as spending_rank 
+with top_spending_customers AS (
+select c.customer_name,sum(o.total_amount) as total_amount,
+RANK() OVER(order by sum(o.total_amount) desc) as spending_rank 
 from customers c 
 JOIN orders o on c.customer_id = o.customer_id
-order by spending_rank desc 
+group by c.customer_name
+)
+select 
+customer_name,
+total_amount,
+spending_rank
+from top_spending_customers
+
+--Deduplicate using CTE.
+
+select * from stg_customers
+insert into stg_customers (customer_name,city,email,phone_number)
+values 
+('Allen.c', 'vypin, cochin', 'c.allen@gmail.com', '1234567874')
+
+with dedup_stg_customers as (
+select *, 
+row_number() over(PARTITION by email order by customer_id desc) as rn 
+from stg_customers)
+
+select * from dedup_stg_customers
+where rn =1;
+
+
+
+--Chain multiple CTEs.
+--Customers → Deduplicate → Rank
+with customer_spend as(
+select c.customer_id,c.customer_name,c.email,sum(o.total_amount) as total_spend
+from customers c
+JOIN 
+orders o on c.customer_id  = o.customer_id
+group by c.customer_id,c.email,c.customer_name
+),
+dedup_customers as
+(select *,
+row_number() over(PARTITION by email order by customer_id desc) as rn 
+from customer_spend),
+ranked_customers as (
+select *,
+rank() over(order by total_spend desc) as spending_rank
+from dedup_customers
+where rn = 1
+)
+select * from ranked_customers
+order by spending_rank;
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -75,3 +75,56 @@ WITH daily_orders AS
         order by customer_id,streak_start_date
 
 
+
+-----------------------------------
+--Top N per group.
+
+--find top 2 selling product in each category
+
+
+
+WITH top_selling_product as (
+select p.product_name,
+       p.category,
+       sum(oi.quantity) as total_sold
+from products p 
+JOIN order_items oi on oi.product_id = p.product_id
+group by p.product_name,p.category
+), ranked_products as (
+select product_name,
+       category,
+       total_sold, 
+       DENSE_RANK() over (PARTITION by category order by total_sold desc) as rnk
+       from top_selling_product
+)
+select product_name,
+        category,
+        total_sold,
+        rnk
+from ranked_products 
+where rnk <= 2
+
+----------------------------
+
+--Deduplicate rows.
+--dedup email 
+
+with cust_details as (
+select customer_id,customer_name,email,
+row_number() over(PARTITION by email order by customer_id asc) as rnk
+from customers
+) 
+select * from cust_details
+where rnk = 1
+order by customer_id
+
+
+
+
+        
+
+
+
+
+
+
