@@ -27,7 +27,7 @@
 #
 # print(reverse_str("Hello"))
 
-# two pointer
+# Using two pointer approach ß
 
 def reverse_string(text):
     chars = list(text)
