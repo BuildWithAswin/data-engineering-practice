@@ -20,3 +20,20 @@ group by c.customer_id)
 where number_of_orders > 3
 order by number_of_orders desc 
 
+--Latest order from each customer
+
+select c.customer_name,
+o.order_id,
+o.order_date
+from
+(select
+c.customer_name,
+o.order_id,
+o.order_date,
+ROW_NUMBER() OVER(PARTITION BY c.customer_id order by o.order_id desc
+ ) as rn
+from customers c 
+JOIN orders o on o.customer_id = c.customer_id 
+) t
+where rn = 1;
+
