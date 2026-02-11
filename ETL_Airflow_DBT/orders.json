@@ -1,0 +1,49 @@
+[
+    {
+        "order_id": 1001,
+        "order_date": "2024-01-10",
+        "customer": {
+            "customer_id": "C001",
+            "name": "Aswin",
+            "city": " Kochi "
+        },
+        "items": [
+            {
+                "product": "Phone",
+                "price": 20000,
+                "qty": 1
+            },
+            {
+                "product": "Case",
+                "price": 500,
+                "qty": 1
+            }
+        ]
+    },
+    {
+        "order_id": 1002,
+        "order_date": "2024-01-11",
+        "customer": {
+            "customer_id": "C002",
+            "name": "Rahul",
+            "city": "Trivandrum"
+        },
+        "items": [
+            {
+                "product": "Laptop",
+                "price": 55000,
+                "qty": 1
+            }
+        ]
+    },
+    {
+        "order_id": 1003,
+        "order_date": "2024-01-12",
+        "customer": {
+            "customer_id": "C003",
+            "name": "",
+            "city": "Bangalore"
+        },
+        "items": []
+    }
+]
