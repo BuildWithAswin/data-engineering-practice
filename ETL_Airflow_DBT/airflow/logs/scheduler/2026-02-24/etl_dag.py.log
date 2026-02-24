@@ -1,0 +1,434 @@
+[2026-02-24T05:30:05.287+0530] {processor.py:161} INFO - Started process (PID=47071) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:30:05.288+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:30:05.288+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:30:05.288+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:30:05.298+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:30:05.326+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:30:05.326+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:30:05.332+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:30:05.332+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:30:05.338+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:30:50.613+0530] {processor.py:161} INFO - Started process (PID=47112) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:30:50.613+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:30:50.614+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:30:50.614+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:30:50.625+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:30:50.652+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:30:50.652+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:30:50.658+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:30:50.658+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:30:50.663+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T05:31:33.568+0530] {processor.py:161} INFO - Started process (PID=47148) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:31:33.570+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:31:33.570+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:31:33.570+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:31:33.580+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:31:33.608+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:31:33.608+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:31:33.614+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:31:33.614+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:31:33.619+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:32:20.437+0530] {processor.py:161} INFO - Started process (PID=47219) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:32:20.437+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:32:20.438+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:32:20.438+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:32:20.448+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:32:20.476+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:32:20.476+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:32:20.482+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:32:20.482+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:32:20.488+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:33:08.273+0530] {processor.py:161} INFO - Started process (PID=47269) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:33:08.273+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:33:08.274+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:33:08.274+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:33:08.284+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:33:08.312+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:33:08.312+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:33:08.317+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:33:08.317+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:33:08.323+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T05:33:54.306+0530] {processor.py:161} INFO - Started process (PID=47321) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:33:54.307+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:33:54.307+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:33:54.307+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:33:54.318+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:33:54.346+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:33:54.346+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:33:54.352+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:33:54.352+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:33:54.358+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T05:34:44.077+0530] {processor.py:161} INFO - Started process (PID=47381) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:34:44.078+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:34:44.078+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:34:44.078+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:34:44.088+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:34:44.117+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:34:44.117+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:34:44.123+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:34:44.123+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:34:44.130+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.054 seconds
+[2026-02-24T05:35:31.317+0530] {processor.py:161} INFO - Started process (PID=47418) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:35:31.317+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:35:31.318+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:35:31.318+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:35:31.328+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:35:31.356+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:35:31.356+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:35:31.362+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:35:31.362+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:35:31.368+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:36:17.431+0530] {processor.py:161} INFO - Started process (PID=47487) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:36:17.432+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:36:17.432+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:36:17.432+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:36:17.442+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:36:17.471+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:36:17.471+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:36:17.476+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:36:17.476+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:36:17.482+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:37:10.653+0530] {processor.py:161} INFO - Started process (PID=47543) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:37:10.654+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:37:10.654+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:37:10.654+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:37:10.665+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:37:10.693+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:37:10.693+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:37:10.699+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:37:10.699+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:37:10.705+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T05:38:04.658+0530] {processor.py:161} INFO - Started process (PID=47590) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:38:04.659+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:38:04.660+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:38:04.660+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:38:04.670+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:38:04.698+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:38:04.698+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:38:04.703+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:38:04.703+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:38:04.709+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:38:50.330+0530] {processor.py:161} INFO - Started process (PID=47629) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:38:50.330+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:38:50.330+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:38:50.330+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:38:50.341+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:38:50.369+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:38:50.369+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:38:50.375+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:38:50.375+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:38:50.381+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:39:34.961+0530] {processor.py:161} INFO - Started process (PID=47669) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:39:34.962+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:39:34.962+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:39:34.962+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:39:34.972+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:39:35.000+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:39:35.000+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:39:35.006+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:39:35.006+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:39:35.012+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:40:23.115+0530] {processor.py:161} INFO - Started process (PID=47718) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:40:23.116+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:40:23.116+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:40:23.116+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:40:23.127+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:40:23.157+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:40:23.157+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:40:23.163+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:40:23.163+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:40:23.169+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.055 seconds
+[2026-02-24T05:41:17.121+0530] {processor.py:161} INFO - Started process (PID=47767) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:41:17.121+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:41:17.122+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:41:17.122+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:41:17.132+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:41:17.160+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:41:17.160+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:41:17.166+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:41:17.165+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:41:17.171+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T05:42:03.922+0530] {processor.py:161} INFO - Started process (PID=47802) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:42:03.923+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:42:03.924+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:42:03.924+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:42:03.934+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:42:03.962+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:42:03.962+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:42:03.968+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:42:03.968+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:42:03.973+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:42:47.838+0530] {processor.py:161} INFO - Started process (PID=47836) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:42:47.839+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:42:47.839+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:42:47.839+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:42:47.849+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:42:47.877+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:42:47.877+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:42:47.883+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:42:47.883+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:42:47.889+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:43:32.644+0530] {processor.py:161} INFO - Started process (PID=47870) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:43:32.646+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:43:32.646+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:43:32.646+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:43:32.656+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:43:32.684+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:43:32.684+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:43:32.690+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:43:32.690+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:43:32.695+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:44:20.170+0530] {processor.py:161} INFO - Started process (PID=47922) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:44:20.171+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:44:20.171+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:44:20.171+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:44:20.182+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:44:20.210+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:44:20.209+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:44:20.215+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:44:20.215+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:44:20.221+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:45:07.943+0530] {processor.py:161} INFO - Started process (PID=47961) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:45:07.944+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:45:07.944+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:45:07.944+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:45:07.954+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:45:07.982+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:45:07.982+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:45:07.988+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:45:07.988+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:45:07.993+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:45:53.571+0530] {processor.py:161} INFO - Started process (PID=47996) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:45:53.571+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:45:53.571+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:45:53.571+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:45:53.584+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:45:53.617+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:45:53.616+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:45:53.623+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:45:53.623+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:45:53.629+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.059 seconds
+[2026-02-24T05:46:38.016+0530] {processor.py:161} INFO - Started process (PID=48032) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:46:38.017+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:46:38.017+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:46:38.017+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:46:38.028+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:46:38.056+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:46:38.056+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:46:38.062+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:46:38.062+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:46:38.067+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:47:22.550+0530] {processor.py:161} INFO - Started process (PID=48106) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:47:22.551+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:47:22.552+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:47:22.552+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:47:22.562+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:47:22.590+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:47:22.590+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:47:22.596+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:47:22.596+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:47:22.601+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:48:07.584+0530] {processor.py:161} INFO - Started process (PID=48147) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:48:07.585+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:48:07.585+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:48:07.585+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:48:07.596+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:48:07.624+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:48:07.624+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:48:07.630+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:48:07.630+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:48:07.636+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T05:48:50.510+0530] {processor.py:161} INFO - Started process (PID=48182) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:48:50.510+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:48:50.510+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:48:50.510+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:48:50.521+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:48:50.549+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:48:50.549+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:48:50.554+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:48:50.554+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:48:50.560+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T05:49:36.287+0530] {processor.py:161} INFO - Started process (PID=48259) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:49:36.288+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:49:36.288+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:49:36.288+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:49:36.299+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:49:36.329+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:49:36.328+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:49:36.335+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:49:36.335+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:49:36.341+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.054 seconds
+[2026-02-24T05:50:23.248+0530] {processor.py:161} INFO - Started process (PID=48300) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:50:23.248+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:50:23.249+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:50:23.249+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:50:23.260+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:50:23.288+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:50:23.288+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:50:23.294+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:50:23.294+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:50:23.299+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:51:07.893+0530] {processor.py:161} INFO - Started process (PID=48341) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:51:07.894+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:51:07.894+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:51:07.894+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:51:07.904+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:51:07.933+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:51:07.932+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:51:07.938+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:51:07.938+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:51:07.944+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:51:52.962+0530] {processor.py:161} INFO - Started process (PID=48383) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:51:52.963+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:51:52.963+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:51:52.963+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:51:52.974+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:51:53.002+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:51:53.002+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:51:53.008+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:51:53.008+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:51:53.015+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T05:52:40.779+0530] {processor.py:161} INFO - Started process (PID=48421) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:52:40.780+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:52:40.780+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:52:40.780+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:52:40.791+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:52:40.820+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:52:40.819+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:52:40.825+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:52:40.825+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:52:40.831+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T05:53:27.549+0530] {processor.py:161} INFO - Started process (PID=48474) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:53:27.550+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:53:27.550+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:53:27.550+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:53:27.561+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:53:27.590+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:53:27.590+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:53:27.596+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:53:27.596+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:53:27.602+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.054 seconds
+[2026-02-24T05:54:15.717+0530] {processor.py:161} INFO - Started process (PID=48531) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:54:15.718+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:54:15.718+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:54:15.718+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:54:15.729+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:54:15.758+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:54:15.758+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:54:15.764+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:54:15.764+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:54:15.769+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T05:55:01.656+0530] {processor.py:161} INFO - Started process (PID=48586) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:55:01.656+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:55:01.656+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:55:01.656+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:55:01.668+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:55:01.698+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:55:01.698+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:55:01.704+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:55:01.704+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:55:01.710+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.055 seconds
+[2026-02-24T05:55:50.033+0530] {processor.py:161} INFO - Started process (PID=48636) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:55:50.033+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:55:50.034+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:55:50.033+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:55:50.045+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:55:50.073+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:55:50.073+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:55:50.079+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:55:50.078+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:55:50.085+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T05:56:35.302+0530] {processor.py:161} INFO - Started process (PID=48675) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:56:35.303+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:56:35.303+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:56:35.303+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:56:35.314+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:56:35.342+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:56:35.341+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:56:35.347+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:56:35.347+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:56:35.353+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:57:21.427+0530] {processor.py:161} INFO - Started process (PID=48714) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:57:21.427+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:57:21.428+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:57:21.428+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:57:21.438+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:57:21.466+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:57:21.466+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:57:21.472+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:57:21.472+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:57:21.478+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:58:08.740+0530] {processor.py:161} INFO - Started process (PID=48760) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:58:08.741+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:58:08.741+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:58:08.741+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:58:08.751+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:58:08.779+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:58:08.779+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:58:08.785+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:58:08.785+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:58:08.791+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:58:56.985+0530] {processor.py:161} INFO - Started process (PID=48804) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:58:56.985+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:58:56.985+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:58:56.985+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:58:56.996+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:58:57.024+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:58:57.024+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:58:57.030+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:58:57.029+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:58:57.035+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T05:59:42.401+0530] {processor.py:161} INFO - Started process (PID=48850) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:59:42.402+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T05:59:42.402+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:59:42.402+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:59:42.413+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T05:59:42.441+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:59:42.441+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T05:59:42.446+0530] {logging_mixin.py:188} INFO - [2026-02-24T05:59:42.446+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T05:59:42.452+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:00:29.166+0530] {processor.py:161} INFO - Started process (PID=48907) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:00:29.167+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:00:29.167+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:00:29.167+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:00:29.178+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:00:29.205+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:00:29.205+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:00:29.211+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:00:29.211+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:00:29.217+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:01:18.701+0530] {processor.py:161} INFO - Started process (PID=48976) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:01:18.702+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:01:18.702+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:01:18.702+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:01:18.712+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:01:18.740+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:01:18.740+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:01:18.746+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:01:18.746+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:01:18.751+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T06:02:04.612+0530] {processor.py:161} INFO - Started process (PID=49056) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:02:04.612+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:02:04.613+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:02:04.613+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:02:04.623+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:02:04.651+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:02:04.651+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:02:04.657+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:02:04.657+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:02:04.663+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:02:49.795+0530] {processor.py:161} INFO - Started process (PID=49111) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:02:49.795+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:02:49.796+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:02:49.796+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:02:49.806+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:02:49.834+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:02:49.833+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:02:49.839+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:02:49.839+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:02:49.845+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T06:03:34.768+0530] {processor.py:161} INFO - Started process (PID=49198) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:03:34.768+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:03:34.769+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:03:34.768+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:03:34.779+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:03:34.806+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:03:34.806+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:03:34.812+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:03:34.812+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:03:34.818+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T06:04:22.105+0530] {processor.py:161} INFO - Started process (PID=49254) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:04:22.105+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:04:22.106+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:04:22.106+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:04:22.118+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:04:22.149+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:04:22.149+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:04:22.155+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:04:22.155+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:04:22.162+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.058 seconds
+[2026-02-24T06:05:13.315+0530] {processor.py:161} INFO - Started process (PID=49347) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:05:13.316+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:05:13.316+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:05:13.316+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:05:13.326+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:05:13.356+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:05:13.356+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:05:13.361+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:05:13.361+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:05:13.367+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.054 seconds
+[2026-02-24T06:06:05.082+0530] {processor.py:161} INFO - Started process (PID=49401) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:06:05.082+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:06:05.082+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:06:05.082+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:06:05.094+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:06:05.124+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:06:05.124+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:06:05.131+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:06:05.131+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:06:05.137+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.056 seconds
+[2026-02-24T06:06:57.884+0530] {processor.py:161} INFO - Started process (PID=49448) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:06:57.885+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:06:57.886+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:06:57.885+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:06:57.896+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:06:57.924+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:06:57.924+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:06:57.930+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:06:57.930+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:06:57.935+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:07:43.603+0530] {processor.py:161} INFO - Started process (PID=49482) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:07:43.604+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:07:43.604+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:07:43.604+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:07:43.615+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:07:43.644+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:07:43.644+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:07:43.649+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:07:43.649+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:07:43.655+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T06:08:30.894+0530] {processor.py:161} INFO - Started process (PID=49527) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:08:30.895+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:08:30.895+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:08:30.895+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:08:30.906+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:08:30.934+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:08:30.934+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:08:30.940+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:08:30.940+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:08:30.945+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:09:17.115+0530] {processor.py:161} INFO - Started process (PID=49565) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:09:17.115+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:09:17.116+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:09:17.115+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:09:17.126+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:09:17.154+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:09:17.154+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:09:17.160+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:09:17.160+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:09:17.166+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:10:02.197+0530] {processor.py:161} INFO - Started process (PID=49599) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:10:02.197+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:10:02.197+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:10:02.197+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:10:02.208+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:10:02.236+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:10:02.235+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:10:02.241+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:10:02.241+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:10:02.247+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T06:10:43.331+0530] {processor.py:161} INFO - Started process (PID=49648) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:10:43.332+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:10:43.333+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:10:43.333+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:10:43.343+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:10:43.371+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:10:43.371+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:10:43.377+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:10:43.377+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:10:43.382+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:11:24.221+0530] {processor.py:161} INFO - Started process (PID=49690) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:11:24.222+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:11:24.223+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:11:24.222+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:11:24.233+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:11:24.261+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:11:24.261+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:11:24.268+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:11:24.267+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:11:24.274+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.054 seconds
+[2026-02-24T06:12:09.731+0530] {processor.py:161} INFO - Started process (PID=49725) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:12:09.732+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:12:09.732+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:12:09.732+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:12:09.743+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:12:09.771+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:12:09.770+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:12:09.776+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:12:09.776+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:12:09.782+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:12:59.341+0530] {processor.py:161} INFO - Started process (PID=49759) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:12:59.342+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:12:59.342+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:12:59.342+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:12:59.354+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:12:59.387+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:12:59.387+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:12:59.395+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:12:59.394+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:12:59.401+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.061 seconds
+[2026-02-24T06:13:50.497+0530] {processor.py:161} INFO - Started process (PID=49798) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:13:50.497+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:13:50.498+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:13:50.497+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:13:50.508+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:13:50.536+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:13:50.536+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:13:50.542+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:13:50.542+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:13:50.549+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.053 seconds
+[2026-02-24T06:14:39.528+0530] {processor.py:161} INFO - Started process (PID=49836) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:14:39.529+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:14:39.529+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:14:39.529+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:14:39.540+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:14:39.568+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:14:39.568+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:14:39.573+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:14:39.573+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:14:39.579+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:15:25.751+0530] {processor.py:161} INFO - Started process (PID=49871) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:15:25.751+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:15:25.752+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:15:25.752+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:15:25.762+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:15:25.790+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:15:25.790+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:15:25.795+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:15:25.795+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:15:25.801+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.051 seconds
+[2026-02-24T06:16:12.919+0530] {processor.py:161} INFO - Started process (PID=49922) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:16:12.920+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:16:12.920+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:16:12.920+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:16:12.930+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:16:12.958+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:16:12.958+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:16:12.964+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:16:12.964+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:16:12.971+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:16:58.425+0530] {processor.py:161} INFO - Started process (PID=49976) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:16:58.426+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:16:58.426+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:16:58.426+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:16:58.436+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:16:58.465+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:16:58.464+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:16:58.470+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:16:58.470+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:16:58.476+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.052 seconds
+[2026-02-24T06:17:47.497+0530] {processor.py:161} INFO - Started process (PID=50022) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:17:47.498+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py for tasks to queue
+[2026-02-24T06:17:47.498+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:17:47.498+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:17:47.510+0530] {processor.py:840} INFO - DAG(s) 'etl_pipeline_dag' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py
+[2026-02-24T06:17:47.540+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:17:47.540+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-02-24T06:17:47.547+0530] {logging_mixin.py:188} INFO - [2026-02-24T06:17:47.547+0530] {dag.py:3954} INFO - Setting next_dagrun for etl_pipeline_dag to 2026-02-24 00:00:00+00:00, run_after=2026-02-25 00:00:00+00:00
+[2026-02-24T06:17:47.553+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/etl_dag.py took 0.057 seconds

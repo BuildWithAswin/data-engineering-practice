@@ -1,0 +1,872 @@
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % AIRFLOW_VERSION=2.9.0
+
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % PYTHON_VERSION="$(python --version | cut -d " " -f 2 | cut -d "." -f 1-2)"
+
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % pip install "apache-airflow==${AIRFLOW_VERSION}" \
+  --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+
+[notice] A new release of pip is available: 25.3 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+ERROR: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/apache/airflow/constraints-2.9.0/constraints-3.14.txt
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % python3 --version
+Python 3.14.0
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % brew install python@3.11
+==> Auto-updating Homebrew...
+Adjust how often this is run with `$HOMEBREW_AUTO_UPDATE_SECS` or disable with
+`$HOMEBREW_NO_AUTO_UPDATE=1`. Hide these hints with `$HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> Downloading https://ghcr.io/v2/homebrew/core/portable-ruby/blobs/sha256:1c98fa49eacc935640a6f8e10a2bf33f14cfc276804b71ddb658ea45ba99d167
+######################################################################################################################################################################################################################## 100.0%
+==> Pouring portable-ruby-3.4.8.arm64_big_sur.bottle.tar.gz
+==> Auto-updated Homebrew!
+Updated 2 taps (homebrew/core and homebrew/cask).
+==> New Formulae
+actions-up: Tool to update GitHub Actions to latest versions with SHA pinning
+adplay: Command-line player for OPL2 music
+agent-browser: Browser automation CLI for AI agents
+any2fasta: Convert various sequence formats to FASTA
+aoe: Terminal session manager for AI coding agents
+apache-serf: High-performance asynchronous HTTP client library
+arcadedb: Multi-Model DBMS: Graph, Document, Key/Value, Search, Time Series, Vector
+asc: Fast, lightweight CLI for App Store Connect
+astra: Command-Line Interface for DataStax Astra
+auto-editor: Effort free video editing!
+av1an: Cross-platform command-line encoding framework
+azure-dev: Developer CLI that provides commands for working with Azure resources
+azurite: Lightweight server clone of Azure Storage that simulates it locally
+bagel: CLI to audit posture and evaluate compromise blast radius
+bazel@8: Google's own build tool
+beads: Memory upgrade for your coding agent
+beads_viewer: Terminal-based UI for the Beads issue tracker
+bitwuzla: SMT solver for bit-vectors, floating-points, arrays and uninterpreted functions
+bookokrat: Terminal EPUB Book Reader
+bumpp: Interactive CLI that bumps your version numbers and more
+calm-cli: CLI allows you to interact with the Common Architecture Language Model (CALM)
+cargo-features-manager: TUI like cli tool to manage the features of your rust-project dependencies
+carl: Calendar for the command-line
+ccextractor: Tool for extracting closed captions from video files
+cek: Explore the (overlay) filesystem and layers of OCI container images
+cinecli: Browse, inspect, and launch movie torrents directly from your terminal
+classifier: Text classification with Bayesian, LSI, Logistic Regression, and kNN
+claude-agent-acp: Use Claude Code from any ACP client such as Zed!
+clock-rs: Modern, digital clock that effortlessly runs in your terminal
+codanna: Code intelligence system with semantic search
+codex-acp: Use Codex from ACP-compatible clients such as Zed!
+cozyhr: Cozy wrapper around Helm and Flux CD for local development
+cronboard: Terminal-based dashboard for managing cron jobs locally and on servers
+ctags-lsp: LSP implementation using universal-ctags as backend
+ctre: Compile-time PCRE-compatible regular expression matcher for C++
+custom-install: Install CIA files directly to Nintendo 3DS SD card
+datadog-static-analyzer: Static analysis tool for code quality and security
+dbcsr: Distributed Block Compressed Sparse Row matrix library
+depot: Build your Docker images in the cloud
+diffnav: Git diff pager based on delta but with a file tree
+difi: Pixel-perfect terminal diff viewer
+dnspyre: CLI tool for a high QPS DNS benchmark
+docker-language-server: Language server for Dockerfiles, Compose files, and Bake files
+dotnet@9: .NET Core
+dovi_convert: Dolby Vision Profile 7 to 8.1 MKV converter
+durdraw: Versatile ASCII and ANSI Art text editor for drawing in the terminal
+ekphos: Terminal-based markdown research tool inspired by Obsidian
+faketty: Wrapper to exec a command in a pty, even if redirecting the output
+fence: Lightweight sandbox for commands with network and filesystem restrictions
+ffmpeg-full: Play, record, convert, and stream many audio and video codecs
+flecs: Fast entity component system for C & C++
+fracturedjson: JSON formatter that produces highly readable but fairly compact output
+fresh-editor: Text editor for your terminal: easy, powerful and fast
+fzf-tab: Replace zsh completion selection menu with fzf
+garage: S3 object store so reliable you can run it outside datacenters
+gastown: Multi-agent workspace manager
+ghc@9.12: Glorious Glasgow Haskell Compilation System
+git-flow-next: Modern implementation of the Git-flow branching model
+git-get: Better way to clone, organize and manage multiple git repositories
+git-pages: Scalable static site server for Git forges
+git-pages-cli: Tool for publishing a site to a git-pages server
+git-xet: Git LFS plugin that uploads and downloads using the Xet protocol
+gitlogue: Cinematic Git commit replay tool
+global-arrays: Partitioned Global Address Space (PGAS) library for distributed arrays
+gnuastro: Astronomical data manipulation and analysis utilities and libraries
+go-air: Live reload for Go apps
+go@1.25: Open source programming language to build simple/reliable/efficient software
+goat: General purpose AT Protocol CLI in Go
+gogcli: Google Suite CLI
+grafanactl: CLI to interact with Grafana
+graphqlite: SQLite graph database extension
+gtl: Greg's Template Library of useful classes
+gup: Update binaries installed by go install
+happy-coder: CLI for operating AI coding agents from mobile devices
+hayagriva: Bibliography management tool
+hdrhistogram_c: C port of the HdrHistogram
+headscale-cli: CLI for headscale, an open-source implementation of the Tailscale control server
+headson: Head/tail for structured data
+helix-db: Open-source graph-vector database built from scratch in Rust
+hindent: Haskell pretty printer
+html-to-markdown: Transforms HTML (even entire websites) into clean, readable Markdown
+ic-wasm: CLI tool for performing Wasm transformations specific to ICP canisters
+icp-cli: Development tool for building and deploying canisters on ICP
+imagemagick-full: Tools and libraries to manipulate images in many formats
+install-nothing: Simulates installing things but doesn't actually install anything
+ironclaw: Security-first personal AI assistant with WASM sandbox channels
+joyce: Emulates the Amstrad PCW on Unix, Windows and macOS
+jqfmt: Opinionated formatter for jq
+jsonfmt: Like gofmt, but for JSON files
+kaf: Modern CLI for Apache Kafka
+karakeep: CLI tool for self-hostable bookmark-everything app karakeep
+khaos: Kafka traffic simulator for observability and chaos engineering
+klog: Command-line tool for time tracking in a human-readable, plain-text file format
+kubefwd: Bulk port forwarding Kubernetes services for local development
+kubernetes-cli@1.34: Kubernetes command-line interface
+kyua: Testing framework for infrastructure software
+labctl: CLI tool for interacting with iximiuz labs and playgrounds
+ladybug: Embedded graph database built for query speed and scalability
+leetsolv: CLI tool for DSA problem revision with spaced repetition
+letta-code: Memory-first coding agent
+libevdev: Wrapper library for evdev devices
+libigloo: Generic C framework used and developed by the Icecast project
+libks: Foundational support for signalwire C products
+libnpupnp: C++ base UPnP library, derived from Portable UPnP, a.k.a libupnp
+libthai: Thai language support library
+libupnpp: C++ wrapper for libnpupnp
+likec4: Architecture modeling tool with live diagrams from code
+linux-headers@6.8: Header files of the Linux kernel
+lispkit: Scheme framework for extension and scripting languages on macOS and iOS
+litra: Control Logitech Litra lights from the command-line
+livereload: Local web server in Python
+llhttp: Port of http_parser to llparse
+llmfit: Find what models run on your hardware
+ls-hpack: HTTP/2 HPACK header compression library
+mac-cleanup-go: TUI macOS cleaner that scans caches/logs and lets you select what to delete
+macchanger: Change your mac address, for macOS
+magics: ECMWF's meteorological plotting software
+maigret: Collect a dossier on a person by username from thousands of sites
+mapscii: Whole World In Your Console
+matcha: Daily digest generator for your RSS feeds
+mcp-scan: Constrain, log and scan your MCP connections for security vulnerabilities
+micasa: TUI for tracking home projects, maintenance schedules, appliances and quotes
+minizign: Minisign reimplemented in Zig
+mipsel-linux-gnu-binutils: GNU Binutils for mipsel-linux-gnu cross development
+mistral-vibe: Minimal CLI coding agent
+mlx-c: C API for MLX
+mole: Deep clean and optimize your Mac
+mq: Jq-like command-line tool for markdown processing
+mufetch: Neofetch-style music cli
+nativefiledialog-extended: Native file dialog library with C and C++ bindings
+neo4j-mcp: Neo4j official Model Context Protocol server for AI tools
+netshow: Interactive network connection monitor with friendly service names
+nkt: TUI for fast and simple interacting with your BibLaTeX database
+nomad-pack: Templating and packaging tool used with HashiCorp Nomad
+nullclaw: Tiny autonomous AI assistant infrastructure written in Zig
+octodns: Tools for managing DNS across multiple providers
+odiff: Very fast SIMD-first image comparison library (with nodejs API)
+openskills: Universal skills loader for AI coding agents
+oxfmt: High-performance formatting tool for JavaScript and TypeScript
+pake: Turn any webpage into a desktop app with Rust with ease
+papeer: Convert websites into eBooks and Markdown
+papis: Powerful command-line document and bibliography manager
+patchpal: AI Assisted Patch Backporting Tool Frontend
+pcapmirror: Tool for capturing network traffic on remote host using TZSP or ERSPAN
+pgroll: Postgres zero-downtime migrations made easy
+phantom: CLI tool for seamless parallel development with Git worktrees
+picoclaw: Ultra-efficient personal AI assistant in Go
+picoruby: Smallest Ruby implementation for microcontrollers
+pixlet: App runtime and UX toolkit for pixel-based apps
+playwright-cli: CLI for Playwright: record/generate code, inspect selectors, take screenshots
+pocket-tts: Text-to-speech application designed to run efficiently on CPUs
+pvetui: Terminal UI for Proxmox VE
+py7zr: 7-zip in Python
+pyperformance: Python benchmark suite
+qo: Interactive minimalist TUI to query JSON, CSV, and TSV using SQL
+qqqa: Fast, stateless LLM for your shell: qq answers; qa runs commands
+rad: Modern CLI scripts made easy
+radicle: Sovereign code forge built on Git
+ralph-orchestrator: Multi-agent orchestration framework for autonomous AI task completion
+redu: Ncdu for your restic repository
+repeater: Flashcard program that uses spaced repetition
+rig-r: R Installation Manager
+rmrfrs: Filesystem cleaning tool
+rockcraft: Tool to create OCI images using the language from Snapcraft and Charmcraft
+rtk: CLI proxy to minimize LLM token consumption
+ruby@3.4: Powerful, clean, object-oriented scripting language
+run-kit: Universal multi-language runner and smart REPL
+rustledger: Fast, pure Rust implementation of Beancount double-entry accounting
+rustypaste: Minimal file upload/pastebin service
+rv-r: Declarative R package manager
+sandvault: Run AI agents isolated in a sandboxed macOS user account
+save3ds_fuse: Extract/Import/FUSE for 3DS save/extdata/database
+sheenbidi: Fast and stable implementation of the Unicode Bidirectional Algorithm
+shiki: Beautiful yet powerful syntax highlighter
+signalwire-client-c: SignalWire C Client SDK
+skillshare: Sync skills across AI CLI tools
+slicot: Fortran subroutines library for systems and control
+snitch: Prettier way to inspect network connections
+sss-cli: Shamir secret share command-line interface
+static-web-apps-cli: SWA CLI serves as a local development tool for Azure Static Web Apps
+structurizr: Software architecture models as code
+superseedr: BitTorrent Client in your Terminal
+svt-vp9: Scalable Video Technology for VP9 Encoder
+svu: Semantic version utility
+talm: Manage Talos Linux configurations the GitOps way
+termshot: Creates screenshots based on terminal command output
+tfclean: Remove applied moved block, import block, etc
+tftp-now: Single-binary TFTP server and client that you can use right now
+thorvg: Lightweight portable library used for drawing vector-based scenes and animations
+tock: Powerful time tracking tool for the command-line
+toktop: LLM usage monitor in terminal
+topydo: Todo list application using the todo.txt format
+tpix: Simple terminal image viewer using the Kitty graphics protocol
+transifex-cli: Transifex command-line client
+tree-sitter-go: Go grammar for tree-sitter
+tree-sitter-python: Python grammar for tree-sitter
+tree-sitter-ruby: Ruby grammar for tree-sitter
+tree-sitter@0.25: Incremental parsing library
+treemd: TUI and CLI dual pane markdown viewer
+tronbyt-server: Manage your apps on your Tronbyt (flashed Tidbyt) completely locally
+try-rs: Temporary workspace manager for fast experimentation in the terminal
+tuckr: Super powered replacement for GNU Stow
+ty: Extremely fast Python type checker, written in Rust
+umoci: Reference OCI implementation for creating, modifying and inspecting images
+vacuum: World's fastest OpenAPI & Swagger linter
+vampire: High-performance theorem prover
+vtsls: LSP wrapper for typescript extension of vscode
+wasm-bindgen: Facilitating high-level interactions between Wasm modules and JavaScript
+whodb-cli: Database management CLI with TUI interface, MCP server support, AI, and more
+whosthere: LAN discovery tool with a modern TUI written in Go
+wifitui: Fast featureful friendly wifi terminal UI
+wik: View Wikipedia pages from your terminal
+witr: Why is this running?
+worktrunk: CLI for Git worktree management, designed for parallel AI agent workflows
+wuchale: Protobuf-like i18n from plain code
+xcsift: Swift tool to parse xcodebuild output for coding agents
+yap: On-device audio transcription using Speech.framework
+zeroclaw: Rust-first autonomous agent runtime
+zxing-cpp: Multi-format barcode image processing library written in C++
+
+You have 14 outdated formulae installed.
+
+==> Fetching downloads for: python@3.11
+✔︎ Bottle Manifest python@3.11 (3.11.14_3)                                                                                                                                                           Downloaded   21.4KB/ 21.4KB
+✔︎ Bottle Manifest ca-certificates (2025-12-02)                                                                                                                                                      Downloaded    2.0KB/  2.0KB
+✔︎ Bottle Manifest openssl@3 (3.6.1)                                                                                                                                                                 Downloaded   11.8KB/ 11.8KB
+✔︎ Bottle Manifest readline (8.3.3)                                                                                                                                                                  Downloaded   10.0KB/ 10.0KB
+✔︎ Bottle Manifest sqlite (3.51.2_1)                                                                                                                                                                 Downloaded   11.5KB/ 11.5KB
+✔︎ Bottle Manifest xz (5.8.2)                                                                                                                                                                        Downloaded   11.8KB/ 11.8KB
+✔︎ Bottle ca-certificates (2025-12-02)                                                                                                                                                               Downloaded  131.8KB/131.8KB
+✔︎ Bottle readline (8.3.3)                                                                                                                                                                           Downloaded  758.1KB/758.1KB
+✔︎ Bottle xz (5.8.2)                                                                                                                                                                                 Downloaded  764.9KB/764.9KB
+✔︎ Bottle sqlite (3.51.2_1)                                                                                                                                                                          Downloaded    2.4MB/  2.4MB
+✔︎ Bottle openssl@3 (3.6.1)                                                                                                                                                                          Downloaded   10.9MB/ 10.9MB
+✔︎ Bottle python@3.11 (3.11.14_3)                                                                                                                                                                    Downloaded   15.6MB/ 15.6MB
+==> Installing dependencies for python@3.11: ca-certificates, openssl@3, readline, sqlite and xz
+==> Installing python@3.11 dependency: ca-certificates
+==> Pouring ca-certificates--2025-12-02.all.bottle.1.tar.gz
+==> Regenerating CA certificate bundle from keychain, this may take a while...
+🍺  /opt/homebrew/Cellar/ca-certificates/2025-12-02: 4 files, 236.4KB
+==> Installing python@3.11 dependency: openssl@3
+==> Pouring openssl@3--3.6.1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/openssl@3/3.6.1: 7,624 files, 37.6MB
+==> Installing python@3.11 dependency: readline
+==> Pouring readline--8.3.3.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/readline/8.3.3: 56 files, 2.7MB
+==> Installing python@3.11 dependency: sqlite
+==> Pouring sqlite--3.51.2_1.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/sqlite/3.51.2_1: 13 files, 5.3MB
+==> Installing python@3.11 dependency: xz
+==> Pouring xz--5.8.2.arm64_sequoia.bottle.tar.gz
+🍺  /opt/homebrew/Cellar/xz/5.8.2: 96 files, 2.7MB
+==> Installing python@3.11
+==> Pouring python@3.11--3.11.14_3.arm64_sequoia.bottle.1.tar.gz
+==> /opt/homebrew/Cellar/python@3.11/3.11.14_3/bin/python3.11 -Im ensurepip
+==> /opt/homebrew/Cellar/python@3.11/3.11.14_3/bin/python3.11 -Im pip install -v --no-index --upgrade --isolated --target=/opt/homebrew/lib/python3.11/site-packages /opt/homebrew/Cellar/python@3.11/3.11.14_3/Frameworks/Pyth
+==> Caveats
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+==> Summary
+🍺  /opt/homebrew/Cellar/python@3.11/3.11.14_3: 3,306 files, 65.0MB
+==> Running `brew cleanup python@3.11`...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+==> `brew cleanup` has not been run in the last 30 days, running now...
+Disable this behaviour by setting `HOMEBREW_NO_INSTALL_CLEANUP=1`.
+Hide these hints with `HOMEBREW_NO_ENV_HINTS=1` (see `man brew`).
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-09-09... (4 files, 238.4KB)
+Removing: /opt/homebrew/Cellar/ca-certificates/2025-11-04... (4 files, 241.5KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-09-09-1... (2.0KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/ca-certificates_bottle_manifest--2025-11-04-1... (2KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/ca-certificates--2025-09-09... (133.0KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/ca-certificates--2025-11-04... (134.7KB)
+Removing: /opt/homebrew/Cellar/libunistring/1.3... (59 files, 5.7MB)
+Removing: /opt/homebrew/Cellar/openssl@3/3.6.0... (7,609 files, 37.7MB)
+Removing: /Users/aswin/Library/Caches/Homebrew/openssl@3_bottle_manifest--3.6.0... (11.8KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/openssl@3--3.6.0... (10.9MB)
+Removing: /opt/homebrew/Cellar/readline/8.3.1... (56 files, 2.7MB)
+Removing: /Users/aswin/Library/Caches/Homebrew/readline_bottle_manifest--8.3.1... (12.3KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/readline--8.3.1... (758.2KB)
+Removing: /opt/homebrew/Cellar/sqlite/3.50.4... (13 files, 5.1MB)
+Removing: /Users/aswin/Library/Caches/Homebrew/sqlite_bottle_manifest--3.50.4-2... (11.4KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/sqlite--3.50.4... (2.4MB)
+Removing: /opt/homebrew/Cellar/xz/5.8.1... (96 files, 2.6MB)
+Removing: /Users/aswin/Library/Caches/Homebrew/xz_bottle_manifest--5.8.1... (14.5KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/xz--5.8.1... (748.1KB)
+Removing: /Users/aswin/Library/Caches/Homebrew/portable-ruby-3.4.7.arm64_big_sur.bottle.tar.gz... (12.2MB)
+Removing: /Users/aswin/Library/Caches/Homebrew/portable-ruby-3.4.8.arm64_big_sur.bottle.tar.gz... (12.2MB)
+Removing: /Users/aswin/Library/Caches/Homebrew/bootsnap/e480d26faefcc0649aee4a1b4bb5df1bf6ea887486b0f1485789bf3d26f5e27a... (659 files, 5.7MB)
+Removing: /Users/aswin/Library/Caches/Homebrew/bootsnap/9a18177e19f3a66379884186e4d111fa0236bf8b873de2e480bdb13d2d10bdec... (646 files, 5.6MB)
+Removing: /Users/aswin/Library/Logs/Homebrew/openssl@3... (64B)
+Removing: /Users/aswin/Library/Logs/Homebrew/ca-certificates... (64B)
+Removing: /Users/aswin/Library/Logs/Homebrew/postgresql@16... (1.4KB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/libtommath... (11 files, 541.2KB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/libunistring... (58 files, 5.8MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/krb5... (162 files, 5.9MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/ca-certificates... (3 files, 239.2KB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/gettext... (2,427 files, 29.6MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/tcl-tk... (3,157 files, 40.1MB)
+Removing: /opt/homebrew/var/homebrew/tmp/.cellar/icu4c@78... (278 files, 87.9MB)
+==> Caveats
+==> python@3.11
+Python is installed as
+  /opt/homebrew/bin/python3.11
+
+Unversioned and major-versioned symlinks `python`, `python3`, `python-config`, `python3-config`, `pip`, `pip3`, etc. pointing to
+`python3.11`, `python3.11-config`, `pip3.11` etc., respectively, are installed into
+  /opt/homebrew/opt/python@3.11/libexec/bin
+
+You can install Python packages with
+  pip3.11 install <package>
+They will install into the site-package directory
+  /opt/homebrew/lib/python3.11/site-packages
+
+`idle3.11` requires tkinter, which is available separately:
+  brew install python-tk@3.11
+
+gdbm (`dbm.gnu`) is no longer included in this formula, but it is available separately:
+  brew install python-gdbm@3.11
+`dbm.ndbm` changed database backends in Homebrew Python 3.11.
+If you need to read a database from a previous Homebrew Python created via `dbm.ndbm`,
+you'll need to read your database using the older version of Homebrew Python and convert to another format.
+`dbm` still defaults to `dbm.gnu` when it is installed.
+
+If you do not need a specific version of Python, and always want Homebrew's `python3` in your PATH:
+  brew install python3
+
+For more information about Homebrew and Python, see: https://docs.brew.sh/Homebrew-and-Python
+(airflow_env) aswin@Aswins-MacBook-Pro airflow %        pwd
+/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % cd ..
+(airflow_env) aswin@Aswins-MacBook-Pro ETL_Airflow_DBT % 
+(airflow_env) aswin@Aswins-MacBook-Pro ETL_Airflow_DBT % 
+(airflow_env) aswin@Aswins-MacBook-Pro ETL_Airflow_DBT % cd airflow 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % rm -rf airflow_env 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % python3.11 -m venv airflow_env
+
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % source airflow_env/bin/activate
+
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % python --version
+Python 3.11.14
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % ls -ltra 
+total 0
+drwxr-xr-x  20 aswin  staff  640 Feb 23 05:11 ..
+drwxr-xr-x@  3 aswin  staff   96 Feb 23 07:32 .
+drwxr-xr-x@  6 aswin  staff  192 Feb 23 07:32 airflow_env
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % AIRFLOW_VERSION=2.9.0
+
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % PYTHON_VERSION="3.11"
+
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % pip install "apache-airflow==${AIRFLOW_VERSION}" \
+  --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+Collecting apache-airflow==2.9.0
+  Downloading apache_airflow-2.9.0-py3-none-any.whl.metadata (43 kB)
+Collecting alembic<2.0,>=1.13.1 (from apache-airflow==2.9.0)
+  Downloading alembic-1.13.1-py3-none-any.whl.metadata (7.4 kB)
+Collecting argcomplete>=1.10 (from apache-airflow==2.9.0)
+  Downloading argcomplete-3.2.3-py3-none-any.whl.metadata (16 kB)
+Collecting asgiref (from apache-airflow==2.9.0)
+  Downloading asgiref-3.8.1-py3-none-any.whl.metadata (9.3 kB)
+Collecting attrs>=22.1.0 (from apache-airflow==2.9.0)
+  Downloading attrs-23.2.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting blinker>=1.6.2 (from apache-airflow==2.9.0)
+  Downloading blinker-1.7.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting colorlog<5.0,>=4.0.2 (from apache-airflow==2.9.0)
+  Downloading colorlog-4.8.0-py2.py3-none-any.whl.metadata (9.8 kB)
+Collecting configupdater>=3.1.1 (from apache-airflow==2.9.0)
+  Downloading ConfigUpdater-3.2-py2.py3-none-any.whl.metadata (10 kB)
+Collecting connexion<3.0,>=2.10.0 (from connexion[flask]<3.0,>=2.10.0->apache-airflow==2.9.0)
+  Downloading connexion-2.14.2-py2.py3-none-any.whl.metadata (28 kB)
+Collecting cron-descriptor>=1.2.24 (from apache-airflow==2.9.0)
+  Downloading cron_descriptor-1.4.3-py3-none-any.whl.metadata (5.7 kB)
+Collecting croniter>=2.0.2 (from apache-airflow==2.9.0)
+  Downloading croniter-2.0.3-py2.py3-none-any.whl.metadata (25 kB)
+Collecting cryptography>=39.0.0 (from apache-airflow==2.9.0)
+  Downloading cryptography-41.0.7-cp37-abi3-macosx_10_12_universal2.whl.metadata (5.2 kB)
+Collecting deprecated>=1.2.13 (from apache-airflow==2.9.0)
+  Downloading Deprecated-1.2.14-py2.py3-none-any.whl.metadata (5.4 kB)
+Collecting dill>=0.2.2 (from apache-airflow==2.9.0)
+  Downloading dill-0.3.1.1.tar.gz (151 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting flask-caching>=1.5.0 (from apache-airflow==2.9.0)
+  Downloading Flask_Caching-2.1.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting flask-session<0.6,>=0.4.0 (from apache-airflow==2.9.0)
+  Downloading flask_session-0.5.0-py3-none-any.whl.metadata (1.4 kB)
+Collecting flask-wtf>=0.15 (from apache-airflow==2.9.0)
+  Downloading flask_wtf-1.2.1-py3-none-any.whl.metadata (3.4 kB)
+Collecting flask<2.3,>=2.2 (from apache-airflow==2.9.0)
+  Downloading Flask-2.2.5-py3-none-any.whl.metadata (3.9 kB)
+Collecting fsspec>=2023.10.0 (from apache-airflow==2.9.0)
+  Downloading fsspec-2023.12.2-py3-none-any.whl.metadata (6.8 kB)
+Collecting google-re2>=1.0 (from apache-airflow==2.9.0)
+  Downloading google_re2-1.1-6-cp311-cp311-macosx_14_0_arm64.whl.metadata (2.1 kB)
+Collecting gunicorn>=20.1.0 (from apache-airflow==2.9.0)
+  Downloading gunicorn-21.2.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting httpx (from apache-airflow==2.9.0)
+  Downloading httpx-0.23.3-py3-none-any.whl.metadata (7.1 kB)
+Collecting importlib_metadata>=6.5 (from apache-airflow==2.9.0)
+  Downloading importlib_metadata-6.11.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting itsdangerous>=2.0 (from apache-airflow==2.9.0)
+  Downloading itsdangerous-2.1.2-py3-none-any.whl.metadata (2.9 kB)
+Collecting jinja2>=3.0.0 (from apache-airflow==2.9.0)
+  Downloading Jinja2-3.1.3-py3-none-any.whl.metadata (3.3 kB)
+Collecting jsonschema>=4.18.0 (from apache-airflow==2.9.0)
+  Downloading jsonschema-4.21.1-py3-none-any.whl.metadata (7.8 kB)
+Collecting lazy-object-proxy (from apache-airflow==2.9.0)
+  Downloading lazy-object-proxy-1.10.0.tar.gz (43 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting linkify-it-py>=2.0.0 (from apache-airflow==2.9.0)
+  Downloading linkify_it_py-2.0.3-py3-none-any.whl.metadata (8.5 kB)
+Collecting lockfile>=0.12.2 (from apache-airflow==2.9.0)
+  Downloading lockfile-0.12.2-py2.py3-none-any.whl.metadata (2.4 kB)
+Collecting markdown-it-py>=2.1.0 (from apache-airflow==2.9.0)
+  Downloading markdown_it_py-3.0.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting markupsafe>=1.1.1 (from apache-airflow==2.9.0)
+  Downloading MarkupSafe-2.1.5-cp311-cp311-macosx_10_9_universal2.whl.metadata (3.0 kB)
+Collecting marshmallow-oneofschema>=2.0.1 (from apache-airflow==2.9.0)
+  Downloading marshmallow_oneofschema-3.1.1-py3-none-any.whl.metadata (5.0 kB)
+Collecting mdit-py-plugins>=0.3.0 (from apache-airflow==2.9.0)
+  Downloading mdit_py_plugins-0.4.0-py3-none-any.whl.metadata (2.7 kB)
+Collecting opentelemetry-api>=1.15.0 (from apache-airflow==2.9.0)
+  Downloading opentelemetry_api-1.24.0-py3-none-any.whl.metadata (1.3 kB)
+Collecting opentelemetry-exporter-otlp (from apache-airflow==2.9.0)
+  Downloading opentelemetry_exporter_otlp-1.24.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting packaging>=14.0 (from apache-airflow==2.9.0)
+  Downloading packaging-24.0-py3-none-any.whl.metadata (3.2 kB)
+Collecting pathspec>=0.9.0 (from apache-airflow==2.9.0)
+  Downloading pathspec-0.12.1-py3-none-any.whl.metadata (21 kB)
+Collecting pendulum<4.0,>=2.1.2 (from apache-airflow==2.9.0)
+  Downloading pendulum-3.0.0-cp311-cp311-macosx_11_0_arm64.whl.metadata (6.9 kB)
+Collecting pluggy>=1.0 (from apache-airflow==2.9.0)
+  Downloading pluggy-1.4.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting psutil>=4.2.0 (from apache-airflow==2.9.0)
+  Downloading psutil-5.9.8-cp38-abi3-macosx_11_0_arm64.whl.metadata (21 kB)
+Collecting pygments>=2.0.1 (from apache-airflow==2.9.0)
+  Downloading pygments-2.17.2-py3-none-any.whl.metadata (2.6 kB)
+Collecting pyjwt>=2.0.0 (from apache-airflow==2.9.0)
+  Downloading PyJWT-2.8.0-py3-none-any.whl.metadata (4.2 kB)
+Collecting python-daemon>=3.0.0 (from apache-airflow==2.9.0)
+  Downloading python_daemon-3.0.1-py3-none-any.whl.metadata (2.2 kB)
+Collecting python-dateutil>=2.3 (from apache-airflow==2.9.0)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting python-nvd3>=0.15.0 (from apache-airflow==2.9.0)
+  Downloading python-nvd3-0.15.0.tar.gz (31 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting python-slugify>=5.0 (from apache-airflow==2.9.0)
+  Downloading python_slugify-8.0.4-py2.py3-none-any.whl.metadata (8.5 kB)
+Collecting requests<3,>=2.27.0 (from apache-airflow==2.9.0)
+  Downloading requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting rfc3339-validator>=0.1.4 (from apache-airflow==2.9.0)
+  Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting rich-argparse>=1.0.0 (from apache-airflow==2.9.0)
+  Downloading rich_argparse-1.4.0-py3-none-any.whl.metadata (14 kB)
+Collecting rich>=12.4.4 (from apache-airflow==2.9.0)
+  Downloading rich-13.7.1-py3-none-any.whl.metadata (18 kB)
+Collecting setproctitle>=1.1.8 (from apache-airflow==2.9.0)
+  Downloading setproctitle-1.3.3-cp311-cp311-macosx_10_9_universal2.whl.metadata (9.9 kB)
+Collecting sqlalchemy<2.0,>=1.4.36 (from apache-airflow==2.9.0)
+  Downloading SQLAlchemy-1.4.52-cp311-cp311-macosx_10_9_universal2.whl.metadata (10 kB)
+Collecting sqlalchemy-jsonfield>=1.0 (from apache-airflow==2.9.0)
+  Downloading SQLAlchemy_JSONField-1.0.2-py3-none-any.whl.metadata (5.2 kB)
+Collecting tabulate>=0.7.5 (from apache-airflow==2.9.0)
+  Downloading tabulate-0.9.0-py3-none-any.whl.metadata (34 kB)
+Collecting tenacity!=8.2.0,>=6.2.0 (from apache-airflow==2.9.0)
+  Downloading tenacity-8.2.3-py3-none-any.whl.metadata (1.0 kB)
+Collecting termcolor>=1.1.0 (from apache-airflow==2.9.0)
+  Downloading termcolor-2.4.0-py3-none-any.whl.metadata (6.1 kB)
+Collecting unicodecsv>=0.14.1 (from apache-airflow==2.9.0)
+  Downloading unicodecsv-0.14.1.tar.gz (10 kB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+Collecting universal-pathlib>=0.2.2 (from apache-airflow==2.9.0)
+  Downloading universal_pathlib-0.2.2-py3-none-any.whl.metadata (25 kB)
+Collecting werkzeug<3,>=2.0 (from apache-airflow==2.9.0)
+  Downloading Werkzeug-2.2.3-py3-none-any.whl.metadata (4.4 kB)
+Collecting apache-airflow-providers-common-io (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_common_io-1.3.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting apache-airflow-providers-common-sql (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_common_sql-1.11.1-py3-none-any.whl.metadata (6.1 kB)
+Collecting apache-airflow-providers-fab>=1.0.2 (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_fab-1.0.2-py3-none-any.whl.metadata (4.9 kB)
+Collecting apache-airflow-providers-ftp (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_ftp-3.7.0-py3-none-any.whl.metadata (5.8 kB)
+Collecting apache-airflow-providers-http (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_http-4.10.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting apache-airflow-providers-imap (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_imap-3.5.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting apache-airflow-providers-smtp (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_smtp-1.6.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting apache-airflow-providers-sqlite (from apache-airflow==2.9.0)
+  Downloading apache_airflow_providers_sqlite-3.7.1-py3-none-any.whl.metadata (6.0 kB)
+Collecting Mako (from alembic<2.0,>=1.13.1->apache-airflow==2.9.0)
+  Downloading Mako-1.3.2-py3-none-any.whl.metadata (2.9 kB)
+Collecting typing-extensions>=4 (from alembic<2.0,>=1.13.1->apache-airflow==2.9.0)
+  Downloading typing_extensions-4.11.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting clickclick<21,>=1.2 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.9.0)
+  Downloading clickclick-20.10.2-py2.py3-none-any.whl.metadata (7.6 kB)
+Collecting PyYAML<7,>=5.1 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.9.0)
+  Downloading PyYAML-6.0.1-cp311-cp311-macosx_11_0_arm64.whl.metadata (2.1 kB)
+Collecting inflection<0.6,>=0.3.1 (from connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.9.0)
+  Downloading inflection-0.5.1-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting click>=4.0 (from clickclick<21,>=1.2->connexion<3.0,>=2.10.0->connexion[flask]<3.0,>=2.10.0->apache-airflow==2.9.0)
+  Downloading click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting cachelib (from flask-session<0.6,>=0.4.0->apache-airflow==2.9.0)
+  Downloading cachelib-0.9.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=4.18.0->apache-airflow==2.9.0)
+  Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=4.18.0->apache-airflow==2.9.0)
+  Downloading referencing-0.31.1-py3-none-any.whl.metadata (2.7 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=4.18.0->apache-airflow==2.9.0)
+  Downloading rpds_py-0.18.0-cp311-cp311-macosx_11_0_arm64.whl.metadata (4.1 kB)
+Collecting tzdata>=2020.1 (from pendulum<4.0,>=2.1.2->apache-airflow==2.9.0)
+  Downloading tzdata-2024.1-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting time-machine>=2.6.0 (from pendulum<4.0,>=2.1.2->apache-airflow==2.9.0)
+  Downloading time_machine-2.14.1-cp311-cp311-macosx_10_9_universal2.whl.metadata (21 kB)
+Collecting charset-normalizer<4,>=2 (from requests<3,>=2.27.0->apache-airflow==2.9.0)
+  Downloading charset_normalizer-3.3.2-cp311-cp311-macosx_11_0_arm64.whl.metadata (33 kB)
+Collecting idna<4,>=2.5 (from requests<3,>=2.27.0->apache-airflow==2.9.0)
+  Downloading idna-3.6-py3-none-any.whl.metadata (9.9 kB)
+Collecting urllib3<3,>=1.21.1 (from requests<3,>=2.27.0->apache-airflow==2.9.0)
+  Downloading urllib3-1.26.18-py2.py3-none-any.whl.metadata (48 kB)
+Collecting certifi>=2017.4.17 (from requests<3,>=2.27.0->apache-airflow==2.9.0)
+  Downloading certifi-2024.2.2-py3-none-any.whl.metadata (2.2 kB)
+Collecting flask-appbuilder==4.4.1 (from apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading Flask_AppBuilder-4.4.1-py3-none-any.whl.metadata (8.9 kB)
+Collecting flask-login>=0.6.2 (from apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading Flask_Login-0.6.3-py3-none-any.whl.metadata (5.8 kB)
+Collecting apispec<7,>=6.0.0 (from apispec[yaml]<7,>=6.0.0->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading apispec-6.6.0-py3-none-any.whl.metadata (10 kB)
+Collecting colorama<1,>=0.3.9 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Collecting email-validator>=1.0.5 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading email_validator-2.1.1-py3-none-any.whl.metadata (26 kB)
+Collecting Flask-Babel<3,>=1 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading Flask_Babel-2.0.0-py3-none-any.whl.metadata (2.1 kB)
+Collecting Flask-Limiter<4,>3 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading Flask_Limiter-3.5.1-py3-none-any.whl.metadata (6.1 kB)
+Collecting Flask-SQLAlchemy<3,>=2.4 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl.metadata (3.1 kB)
+Collecting Flask-JWT-Extended<5.0.0,>=4.0.0 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading Flask_JWT_Extended-4.6.0-py2.py3-none-any.whl.metadata (3.9 kB)
+Collecting marshmallow<4,>=3.18.0 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading marshmallow-3.21.1-py3-none-any.whl.metadata (7.2 kB)
+Collecting marshmallow-sqlalchemy<0.29.0,>=0.22.0 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading marshmallow_sqlalchemy-0.28.2-py2.py3-none-any.whl.metadata (6.8 kB)
+Collecting prison<1.0.0,>=0.2.1 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading prison-0.2.1-py2.py3-none-any.whl.metadata (973 bytes)
+Collecting sqlalchemy-utils<1,>=0.32.21 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading SQLAlchemy_Utils-0.41.2-py3-none-any.whl.metadata (4.2 kB)
+Collecting WTForms<4 (from flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading wtforms-3.1.2-py3-none-any.whl.metadata (5.3 kB)
+Collecting pytz (from Flask-Babel<3,>=1->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading pytz-2024.1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting Babel>=2.3 (from Flask-Babel<3,>=1->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading Babel-2.14.0-py3-none-any.whl.metadata (1.6 kB)
+Collecting limits>=2.8 (from Flask-Limiter<4,>3->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading limits-3.10.1-py3-none-any.whl.metadata (7.1 kB)
+Collecting ordered-set<5,>4 (from Flask-Limiter<4,>3->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading ordered_set-4.1.0-py3-none-any.whl.metadata (5.3 kB)
+Collecting six (from prison<1.0.0,>=0.2.1->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting cffi>=1.12 (from cryptography>=39.0.0->apache-airflow==2.9.0)
+  Downloading cffi-1.16.0-cp311-cp311-macosx_11_0_arm64.whl.metadata (1.5 kB)
+Collecting pycparser (from cffi>=1.12->cryptography>=39.0.0->apache-airflow==2.9.0)
+  Downloading pycparser-2.22-py3-none-any.whl.metadata (943 bytes)
+Collecting wrapt<2,>=1.10 (from deprecated>=1.2.13->apache-airflow==2.9.0)
+  Downloading wrapt-1.16.0-cp311-cp311-macosx_11_0_arm64.whl.metadata (6.6 kB)
+Collecting dnspython>=2.0.0 (from email-validator>=1.0.5->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading dnspython-2.6.1-py3-none-any.whl.metadata (5.8 kB)
+Collecting zipp>=0.5 (from importlib_metadata>=6.5->apache-airflow==2.9.0)
+  Downloading zipp-3.18.1-py3-none-any.whl.metadata (3.5 kB)
+Collecting importlib-resources>=1.3 (from limits>=2.8->Flask-Limiter<4,>3->flask-appbuilder==4.4.1->apache-airflow-providers-fab>=1.0.2->apache-airflow==2.9.0)
+  Downloading importlib_resources-6.4.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting uc-micro-py (from linkify-it-py>=2.0.0->apache-airflow==2.9.0)
+  Downloading uc_micro_py-1.0.3-py3-none-any.whl.metadata (2.0 kB)
+Collecting mdurl~=0.1 (from markdown-it-py>=2.1.0->apache-airflow==2.9.0)
+  Downloading mdurl-0.1.2-py3-none-any.whl.metadata (1.6 kB)
+Collecting docutils (from python-daemon>=3.0.0->apache-airflow==2.9.0)
+  Downloading docutils-0.16-py2.py3-none-any.whl.metadata (2.7 kB)
+Requirement already satisfied: setuptools>=62.4.0 in ./airflow_env/lib/python3.11/site-packages (from python-daemon>=3.0.0->apache-airflow==2.9.0) (80.10.2)
+Collecting text-unidecode>=1.3 (from python-slugify>=5.0->apache-airflow==2.9.0)
+  Downloading text_unidecode-1.3-py2.py3-none-any.whl.metadata (2.4 kB)
+Collecting more-itertools>=9.0.0 (from apache-airflow-providers-common-sql->apache-airflow==2.9.0)
+  Downloading more_itertools-10.2.0-py3-none-any.whl.metadata (34 kB)
+Collecting sqlparse>=0.4.2 (from apache-airflow-providers-common-sql->apache-airflow==2.9.0)
+  Downloading sqlparse-0.4.4-py3-none-any.whl.metadata (4.0 kB)
+Collecting aiohttp>=3.9.2 (from apache-airflow-providers-http->apache-airflow==2.9.0)
+  Downloading aiohttp-3.9.3-cp311-cp311-macosx_11_0_arm64.whl.metadata (7.4 kB)
+Collecting requests_toolbelt (from apache-airflow-providers-http->apache-airflow==2.9.0)
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting aiosignal>=1.1.2 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.9.0)
+  Downloading aiosignal-1.3.1-py3-none-any.whl.metadata (4.0 kB)
+Collecting frozenlist>=1.1.1 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.9.0)
+  Downloading frozenlist-1.4.1-cp311-cp311-macosx_11_0_arm64.whl.metadata (12 kB)
+Collecting multidict<7.0,>=4.5 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.9.0)
+  Downloading multidict-6.0.5-cp311-cp311-macosx_11_0_arm64.whl.metadata (4.2 kB)
+Collecting yarl<2.0,>=1.0 (from aiohttp>=3.9.2->apache-airflow-providers-http->apache-airflow==2.9.0)
+  Downloading yarl-1.9.4-cp311-cp311-macosx_11_0_arm64.whl.metadata (31 kB)
+Collecting httpcore<0.17.0,>=0.15.0 (from httpx->apache-airflow==2.9.0)
+  Downloading httpcore-0.16.3-py3-none-any.whl.metadata (16 kB)
+Collecting rfc3986<2,>=1.3 (from rfc3986[idna2008]<2,>=1.3->httpx->apache-airflow==2.9.0)
+  Downloading rfc3986-1.5.0-py2.py3-none-any.whl.metadata (6.5 kB)
+Collecting sniffio (from httpx->apache-airflow==2.9.0)
+  Downloading sniffio-1.3.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting h11<0.15,>=0.13 (from httpcore<0.17.0,>=0.15.0->httpx->apache-airflow==2.9.0)
+  Downloading h11-0.14.0-py3-none-any.whl.metadata (8.2 kB)
+Collecting anyio<5.0,>=3.0 (from httpcore<0.17.0,>=0.15.0->httpx->apache-airflow==2.9.0)
+  Downloading anyio-4.3.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting opentelemetry-exporter-otlp-proto-grpc==1.24.0 (from opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading opentelemetry_exporter_otlp_proto_grpc-1.24.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting opentelemetry-exporter-otlp-proto-http==1.24.0 (from opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading opentelemetry_exporter_otlp_proto_http-1.24.0-py3-none-any.whl.metadata (2.1 kB)
+Collecting googleapis-common-protos~=1.52 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading googleapis_common_protos-1.63.0-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting grpcio<2.0.0,>=1.0.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading grpcio-1.62.1-cp311-cp311-macosx_10_10_universal2.whl.metadata (4.0 kB)
+Collecting opentelemetry-exporter-otlp-proto-common==1.24.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading opentelemetry_exporter_otlp_proto_common-1.24.0-py3-none-any.whl.metadata (1.7 kB)
+Collecting opentelemetry-proto==1.24.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading opentelemetry_proto-1.24.0-py3-none-any.whl.metadata (2.2 kB)
+Collecting opentelemetry-sdk~=1.24.0 (from opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading opentelemetry_sdk-1.24.0-py3-none-any.whl.metadata (1.4 kB)
+Collecting protobuf<5.0,>=3.19 (from opentelemetry-proto==1.24.0->opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading protobuf-4.25.3-cp37-abi3-macosx_10_9_universal2.whl.metadata (541 bytes)
+Collecting opentelemetry-semantic-conventions==0.45b0 (from opentelemetry-sdk~=1.24.0->opentelemetry-exporter-otlp-proto-grpc==1.24.0->opentelemetry-exporter-otlp->apache-airflow==2.9.0)
+  Downloading opentelemetry_semantic_conventions-0.45b0-py3-none-any.whl.metadata (2.2 kB)
+Downloading apache_airflow-2.9.0-py3-none-any.whl (13.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 13.3/13.3 MB 7.2 MB/s  0:00:01
+Downloading alembic-1.13.1-py3-none-any.whl (233 kB)
+Downloading colorlog-4.8.0-py2.py3-none-any.whl (10 kB)
+Downloading connexion-2.14.2-py2.py3-none-any.whl (95 kB)
+Downloading clickclick-20.10.2-py2.py3-none-any.whl (7.4 kB)
+Downloading Flask-2.2.5-py3-none-any.whl (101 kB)
+Downloading flask_session-0.5.0-py3-none-any.whl (7.2 kB)
+Downloading inflection-0.5.1-py2.py3-none-any.whl (9.5 kB)
+Downloading jsonschema-4.21.1-py3-none-any.whl (85 kB)
+Downloading pendulum-3.0.0-cp311-cp311-macosx_11_0_arm64.whl (352 kB)
+Downloading PyYAML-6.0.1-cp311-cp311-macosx_11_0_arm64.whl (167 kB)
+Downloading requests-2.31.0-py3-none-any.whl (62 kB)
+Downloading charset_normalizer-3.3.2-cp311-cp311-macosx_11_0_arm64.whl (118 kB)
+Downloading idna-3.6-py3-none-any.whl (61 kB)
+Downloading SQLAlchemy-1.4.52-cp311-cp311-macosx_10_9_universal2.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 4.4 MB/s  0:00:00
+Downloading urllib3-1.26.18-py2.py3-none-any.whl (143 kB)
+Downloading Werkzeug-2.2.3-py3-none-any.whl (233 kB)
+Downloading apache_airflow_providers_fab-1.0.2-py3-none-any.whl (78 kB)
+Downloading Flask_AppBuilder-4.4.1-py3-none-any.whl (2.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.2/2.2 MB 4.4 MB/s  0:00:00
+Downloading apispec-6.6.0-py3-none-any.whl (30 kB)
+Downloading click-8.1.7-py3-none-any.whl (97 kB)
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Downloading Flask_Babel-2.0.0-py3-none-any.whl (9.3 kB)
+Downloading Flask_JWT_Extended-4.6.0-py2.py3-none-any.whl (22 kB)
+Downloading Flask_Limiter-3.5.1-py3-none-any.whl (28 kB)
+Downloading Flask_Login-0.6.3-py3-none-any.whl (17 kB)
+Downloading Flask_SQLAlchemy-2.5.1-py2.py3-none-any.whl (17 kB)
+Downloading flask_wtf-1.2.1-py3-none-any.whl (12 kB)
+Downloading marshmallow-3.21.1-py3-none-any.whl (49 kB)
+Downloading marshmallow_sqlalchemy-0.28.2-py2.py3-none-any.whl (16 kB)
+Downloading ordered_set-4.1.0-py3-none-any.whl (7.6 kB)
+Downloading prison-0.2.1-py2.py3-none-any.whl (5.8 kB)
+Downloading PyJWT-2.8.0-py3-none-any.whl (22 kB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Downloading rich-13.7.1-py3-none-any.whl (240 kB)
+Downloading pygments-2.17.2-py3-none-any.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 4.2 MB/s  0:00:00
+Downloading SQLAlchemy_Utils-0.41.2-py3-none-any.whl (93 kB)
+Downloading wtforms-3.1.2-py3-none-any.whl (145 kB)
+Downloading argcomplete-3.2.3-py3-none-any.whl (42 kB)
+Downloading attrs-23.2.0-py3-none-any.whl (60 kB)
+Downloading Babel-2.14.0-py3-none-any.whl (11.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.0/11.0 MB 2.9 MB/s  0:00:03
+Downloading blinker-1.7.0-py3-none-any.whl (13 kB)
+Downloading certifi-2024.2.2-py3-none-any.whl (163 kB)
+Downloading ConfigUpdater-3.2-py2.py3-none-any.whl (34 kB)
+Downloading cron_descriptor-1.4.3-py3-none-any.whl (49 kB)
+Downloading croniter-2.0.3-py2.py3-none-any.whl (20 kB)
+Downloading cryptography-41.0.7-cp37-abi3-macosx_10_12_universal2.whl (5.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 3.0 MB/s  0:00:01
+Downloading cffi-1.16.0-cp311-cp311-macosx_11_0_arm64.whl (176 kB)
+Downloading Deprecated-1.2.14-py2.py3-none-any.whl (9.6 kB)
+Downloading wrapt-1.16.0-cp311-cp311-macosx_11_0_arm64.whl (38 kB)
+Downloading email_validator-2.1.1-py3-none-any.whl (30 kB)
+Downloading dnspython-2.6.1-py3-none-any.whl (307 kB)
+Downloading Flask_Caching-2.1.0-py3-none-any.whl (28 kB)
+Downloading cachelib-0.9.0-py3-none-any.whl (15 kB)
+Downloading fsspec-2023.12.2-py3-none-any.whl (168 kB)
+Downloading google_re2-1.1-6-cp311-cp311-macosx_14_0_arm64.whl (428 kB)
+Downloading gunicorn-21.2.0-py3-none-any.whl (80 kB)
+Downloading importlib_metadata-6.11.0-py3-none-any.whl (23 kB)
+Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+Downloading Jinja2-3.1.3-py3-none-any.whl (133 kB)
+Downloading jsonschema_specifications-2023.12.1-py3-none-any.whl (18 kB)
+Downloading limits-3.10.1-py3-none-any.whl (45 kB)
+Downloading packaging-24.0-py3-none-any.whl (53 kB)
+Downloading importlib_resources-6.4.0-py3-none-any.whl (38 kB)
+Downloading linkify_it_py-2.0.3-py3-none-any.whl (19 kB)
+Downloading lockfile-0.12.2-py2.py3-none-any.whl (13 kB)
+Downloading markdown_it_py-3.0.0-py3-none-any.whl (87 kB)
+Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Downloading MarkupSafe-2.1.5-cp311-cp311-macosx_10_9_universal2.whl (18 kB)
+Downloading marshmallow_oneofschema-3.1.1-py3-none-any.whl (5.7 kB)
+Downloading mdit_py_plugins-0.4.0-py3-none-any.whl (54 kB)
+Downloading opentelemetry_api-1.24.0-py3-none-any.whl (60 kB)
+Downloading pathspec-0.12.1-py3-none-any.whl (31 kB)
+Downloading pluggy-1.4.0-py3-none-any.whl (20 kB)
+Downloading psutil-5.9.8-cp38-abi3-macosx_11_0_arm64.whl (249 kB)
+Downloading python_daemon-3.0.1-py3-none-any.whl (31 kB)
+Downloading python_slugify-8.0.4-py2.py3-none-any.whl (10 kB)
+Downloading pytz-2024.1-py2.py3-none-any.whl (505 kB)
+Downloading referencing-0.31.1-py3-none-any.whl (25 kB)
+Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+Downloading rich_argparse-1.4.0-py3-none-any.whl (19 kB)
+Downloading rpds_py-0.18.0-cp311-cp311-macosx_11_0_arm64.whl (330 kB)
+Downloading setproctitle-1.3.3-cp311-cp311-macosx_10_9_universal2.whl (16 kB)
+Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Downloading SQLAlchemy_JSONField-1.0.2-py3-none-any.whl (10 kB)
+Downloading tabulate-0.9.0-py3-none-any.whl (35 kB)
+Downloading tenacity-8.2.3-py3-none-any.whl (24 kB)
+Downloading termcolor-2.4.0-py3-none-any.whl (7.7 kB)
+Downloading text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Downloading time_machine-2.14.1-cp311-cp311-macosx_10_9_universal2.whl (20 kB)
+Downloading typing_extensions-4.11.0-py3-none-any.whl (34 kB)
+Downloading tzdata-2024.1-py2.py3-none-any.whl (345 kB)
+Downloading universal_pathlib-0.2.2-py3-none-any.whl (46 kB)
+Downloading zipp-3.18.1-py3-none-any.whl (8.2 kB)
+Downloading apache_airflow_providers_common_io-1.3.0-py3-none-any.whl (15 kB)
+Downloading apache_airflow_providers_common_sql-1.11.1-py3-none-any.whl (45 kB)
+Downloading more_itertools-10.2.0-py3-none-any.whl (57 kB)
+Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)
+Downloading apache_airflow_providers_ftp-3.7.0-py3-none-any.whl (19 kB)
+Downloading apache_airflow_providers_http-4.10.0-py3-none-any.whl (27 kB)
+Downloading aiohttp-3.9.3-cp311-cp311-macosx_11_0_arm64.whl (387 kB)
+Downloading multidict-6.0.5-cp311-cp311-macosx_11_0_arm64.whl (30 kB)
+Downloading yarl-1.9.4-cp311-cp311-macosx_11_0_arm64.whl (81 kB)
+Downloading aiosignal-1.3.1-py3-none-any.whl (7.6 kB)
+Downloading frozenlist-1.4.1-cp311-cp311-macosx_11_0_arm64.whl (53 kB)
+Downloading apache_airflow_providers_imap-3.5.0-py3-none-any.whl (17 kB)
+Downloading apache_airflow_providers_smtp-1.6.1-py3-none-any.whl (22 kB)
+Downloading apache_airflow_providers_sqlite-3.7.1-py3-none-any.whl (13 kB)
+Downloading asgiref-3.8.1-py3-none-any.whl (23 kB)
+Downloading docutils-0.16-py2.py3-none-any.whl (548 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 548.2/548.2 kB 3.2 MB/s  0:00:00
+Downloading httpx-0.23.3-py3-none-any.whl (71 kB)
+Downloading httpcore-0.16.3-py3-none-any.whl (69 kB)
+Downloading anyio-4.3.0-py3-none-any.whl (85 kB)
+Downloading h11-0.14.0-py3-none-any.whl (58 kB)
+Downloading rfc3986-1.5.0-py2.py3-none-any.whl (31 kB)
+Downloading sniffio-1.3.1-py3-none-any.whl (10 kB)
+Downloading Mako-1.3.2-py3-none-any.whl (78 kB)
+Downloading opentelemetry_exporter_otlp-1.24.0-py3-none-any.whl (7.0 kB)
+Downloading opentelemetry_exporter_otlp_proto_grpc-1.24.0-py3-none-any.whl (18 kB)
+Downloading opentelemetry_exporter_otlp_proto_common-1.24.0-py3-none-any.whl (17 kB)
+Downloading opentelemetry_exporter_otlp_proto_http-1.24.0-py3-none-any.whl (16 kB)
+Downloading opentelemetry_proto-1.24.0-py3-none-any.whl (50 kB)
+Downloading googleapis_common_protos-1.63.0-py2.py3-none-any.whl (229 kB)
+Downloading grpcio-1.62.1-cp311-cp311-macosx_10_10_universal2.whl (10.0 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.0/10.0 MB 2.9 MB/s  0:00:03
+Downloading opentelemetry_sdk-1.24.0-py3-none-any.whl (106 kB)
+Downloading opentelemetry_semantic_conventions-0.45b0-py3-none-any.whl (36 kB)
+Downloading protobuf-4.25.3-cp37-abi3-macosx_10_9_universal2.whl (394 kB)
+Downloading pycparser-2.22-py3-none-any.whl (117 kB)
+Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Downloading uc_micro_py-1.0.3-py3-none-any.whl (6.2 kB)
+Building wheels for collected packages: dill, python-nvd3, unicodecsv, lazy-object-proxy
+  Building wheel for dill (pyproject.toml) ... done
+  Created wheel for dill: filename=dill-0.3.1.1-py3-none-any.whl size=78634 sha256=fde79d2dd1045e987c737a8845ded4c8378574288ef7521989f93c5be66b5ca1
+  Stored in directory: /Users/aswin/Library/Caches/pip/wheels/01/60/80/1622338bcecce31a5664ef01c203cc5a7b09f59588d9c07376
+  Building wheel for python-nvd3 (pyproject.toml) ... done
+  Created wheel for python-nvd3: filename=python_nvd3-0.15.0-py3-none-any.whl size=38230 sha256=142f9b0841df067c4cce6a054791b00dec0e659ec15ffeb118bc22fb4936c067
+  Stored in directory: /Users/aswin/Library/Caches/pip/wheels/1e/8a/ef/61e11108e04dac50d0ac846cea099675548974495b40870edb
+  Building wheel for unicodecsv (pyproject.toml) ... done
+  Created wheel for unicodecsv: filename=unicodecsv-0.14.1-py3-none-any.whl size=10789 sha256=4f00317c5934e333d6282db0d681ffc3d7246504e697fd5e1aad78670f10f051
+  Stored in directory: /Users/aswin/Library/Caches/pip/wheels/ec/03/6f/d2e0162d94c0d451556fa43dd4d5531457245c34a36b41ef4a
+  Building wheel for lazy-object-proxy (pyproject.toml) ... done
+  Created wheel for lazy-object-proxy: filename=lazy_object_proxy-1.10.0-cp311-cp311-macosx_15_0_arm64.whl size=27607 sha256=9d4d8000c4cabf3404897bb9450b14a11a07a9ae4b7a1219d70e3b1657007216
+  Stored in directory: /Users/aswin/Library/Caches/pip/wheels/45/d2/05/80fb45f67a09662d968466f3d47f7e358f523bb107169b8acb
+Successfully built dill python-nvd3 unicodecsv lazy-object-proxy
+Installing collected packages: unicodecsv, text-unidecode, rfc3986, pytz, lockfile, cron-descriptor, colorlog, zipp, wrapt, urllib3, uc-micro-py, tzdata, typing-extensions, termcolor, tenacity, tabulate, sqlparse, sqlalchemy, sniffio, six, setproctitle, rpds-py, PyYAML, python-slugify, pyjwt, pygments, pycparser, psutil, protobuf, pluggy, pathspec, packaging, ordered-set, opentelemetry-semantic-conventions, multidict, more-itertools, mdurl, markupsafe, lazy-object-proxy, itsdangerous, inflection, importlib-resources, idna, h11, grpcio, google-re2, fsspec, frozenlist, docutils, dnspython, dill, configupdater, colorama, click, charset-normalizer, certifi, cachelib, blinker, Babel, attrs, asgiref, argcomplete, yarl, WTForms, werkzeug, universal-pathlib, sqlalchemy-utils, sqlalchemy-jsonfield, rfc3339-validator, requests, referencing, python-dateutil, python-daemon, prison, opentelemetry-proto, marshmallow, markdown-it-py, Mako, linkify-it-py, jinja2, importlib_metadata, gunicorn, googleapis-common-protos, email-validator, deprecated, clickclick, cffi, apispec, anyio, aiosignal, time-machine, rich, requests_toolbelt, python-nvd3, opentelemetry-exporter-otlp-proto-common, opentelemetry-api, mdit-py-plugins, marshmallow-sqlalchemy, marshmallow-oneofschema, limits, jsonschema-specifications, httpcore, flask, cryptography, croniter, alembic, aiohttp, rich-argparse, pendulum, opentelemetry-sdk, jsonschema, httpx, flask-wtf, Flask-SQLAlchemy, flask-session, flask-login, Flask-Limiter, Flask-JWT-Extended, flask-caching, Flask-Babel, opentelemetry-exporter-otlp-proto-http, opentelemetry-exporter-otlp-proto-grpc, flask-appbuilder, connexion, opentelemetry-exporter-otlp, apache-airflow-providers-common-sql, apache-airflow-providers-sqlite, apache-airflow-providers-smtp, apache-airflow-providers-imap, apache-airflow-providers-http, apache-airflow-providers-ftp, apache-airflow-providers-fab, apache-airflow-providers-common-io, apache-airflow
+Successfully installed Babel-2.14.0 Flask-Babel-2.0.0 Flask-JWT-Extended-4.6.0 Flask-Limiter-3.5.1 Flask-SQLAlchemy-2.5.1 Mako-1.3.2 PyYAML-6.0.1 WTForms-3.1.2 aiohttp-3.9.3 aiosignal-1.3.1 alembic-1.13.1 anyio-4.3.0 apache-airflow-2.9.0 apache-airflow-providers-common-io-1.3.0 apache-airflow-providers-common-sql-1.11.1 apache-airflow-providers-fab-1.0.2 apache-airflow-providers-ftp-3.7.0 apache-airflow-providers-http-4.10.0 apache-airflow-providers-imap-3.5.0 apache-airflow-providers-smtp-1.6.1 apache-airflow-providers-sqlite-3.7.1 apispec-6.6.0 argcomplete-3.2.3 asgiref-3.8.1 attrs-23.2.0 blinker-1.7.0 cachelib-0.9.0 certifi-2024.2.2 cffi-1.16.0 charset-normalizer-3.3.2 click-8.1.7 clickclick-20.10.2 colorama-0.4.6 colorlog-4.8.0 configupdater-3.2 connexion-2.14.2 cron-descriptor-1.4.3 croniter-2.0.3 cryptography-41.0.7 deprecated-1.2.14 dill-0.3.1.1 dnspython-2.6.1 docutils-0.16 email-validator-2.1.1 flask-2.2.5 flask-appbuilder-4.4.1 flask-caching-2.1.0 flask-login-0.6.3 flask-session-0.5.0 flask-wtf-1.2.1 frozenlist-1.4.1 fsspec-2023.12.2 google-re2-1.1 googleapis-common-protos-1.63.0 grpcio-1.62.1 gunicorn-21.2.0 h11-0.14.0 httpcore-0.16.3 httpx-0.23.3 idna-3.6 importlib-resources-6.4.0 importlib_metadata-6.11.0 inflection-0.5.1 itsdangerous-2.1.2 jinja2-3.1.3 jsonschema-4.21.1 jsonschema-specifications-2023.12.1 lazy-object-proxy-1.10.0 limits-3.10.1 linkify-it-py-2.0.3 lockfile-0.12.2 markdown-it-py-3.0.0 markupsafe-2.1.5 marshmallow-3.21.1 marshmallow-oneofschema-3.1.1 marshmallow-sqlalchemy-0.28.2 mdit-py-plugins-0.4.0 mdurl-0.1.2 more-itertools-10.2.0 multidict-6.0.5 opentelemetry-api-1.24.0 opentelemetry-exporter-otlp-1.24.0 opentelemetry-exporter-otlp-proto-common-1.24.0 opentelemetry-exporter-otlp-proto-grpc-1.24.0 opentelemetry-exporter-otlp-proto-http-1.24.0 opentelemetry-proto-1.24.0 opentelemetry-sdk-1.24.0 opentelemetry-semantic-conventions-0.45b0 ordered-set-4.1.0 packaging-24.0 pathspec-0.12.1 pendulum-3.0.0 pluggy-1.4.0 prison-0.2.1 protobuf-4.25.3 psutil-5.9.8 pycparser-2.22 pygments-2.17.2 pyjwt-2.8.0 python-daemon-3.0.1 python-dateutil-2.9.0.post0 python-nvd3-0.15.0 python-slugify-8.0.4 pytz-2024.1 referencing-0.31.1 requests-2.31.0 requests_toolbelt-1.0.0 rfc3339-validator-0.1.4 rfc3986-1.5.0 rich-13.7.1 rich-argparse-1.4.0 rpds-py-0.18.0 setproctitle-1.3.3 six-1.16.0 sniffio-1.3.1 sqlalchemy-1.4.52 sqlalchemy-jsonfield-1.0.2 sqlalchemy-utils-0.41.2 sqlparse-0.4.4 tabulate-0.9.0 tenacity-8.2.3 termcolor-2.4.0 text-unidecode-1.3 time-machine-2.14.1 typing-extensions-4.11.0 tzdata-2024.1 uc-micro-py-1.0.3 unicodecsv-0.14.1 universal-pathlib-0.2.2 urllib3-1.26.18 werkzeug-2.2.3 wrapt-1.16.0 yarl-1.9.4 zipp-3.18.1
+
+[notice] A new release of pip is available: 26.0 -> 26.0.1
+[notice] To update, run: pip install --upgrade pip
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % ls -ltr a
+ls: a: No such file or directory
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % ls -ltra 
+total 0
+drwxr-xr-x  20 aswin  staff  640 Feb 23 05:11 ..
+drwxr-xr-x@  3 aswin  staff   96 Feb 23 07:32 .
+drwxr-xr-x@  6 aswin  staff  192 Feb 23 07:32 airflow_env
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % du -sh airflow_env 
+267M    airflow_env
+(airflow_env) aswin@Aswins-MacBook-Pro airflow % 
