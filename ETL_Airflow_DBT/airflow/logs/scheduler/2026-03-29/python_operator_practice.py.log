@@ -1,0 +1,11 @@
+[2026-03-29T05:31:40.778+0530] {processor.py:161} INFO - Started process (PID=57988) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-29T05:31:40.779+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-29T05:31:40.779+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:40.779+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-29T05:31:40.790+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-29T05:31:40.845+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:40.845+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:python_operator_practice
+[2026-03-29T05:31:40.847+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:40.847+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:python_operator_practice
+[2026-03-29T05:31:40.849+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:40.849+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:python_operator_practice
+[2026-03-29T05:31:40.849+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:40.849+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:31:40.874+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:40.873+0530] {dag.py:3118} INFO - Creating ORM DAG for python_operator_practice
+[2026-03-29T05:31:40.874+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:40.874+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-29T05:31:40.879+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.102 seconds

@@ -1,0 +1,143 @@
+[2026-03-28T05:52:21.589+0530] {processor.py:161} INFO - Started process (PID=52399) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:52:21.589+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-28T05:52:21.589+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:52:21.589+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:52:21.603+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:52:21.603+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-28T05:52:21.604+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:52:21.604+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-28T05:52:21.604+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:52:21.627+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.039 seconds
+[2026-03-28T05:53:50.240+0530] {processor.py:161} INFO - Started process (PID=52475) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:53:50.240+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-28T05:53:50.240+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:53:50.240+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:53:50.256+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:53:50.256+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-28T05:53:50.256+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:53:50.256+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-28T05:53:50.256+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:53:50.282+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.043 seconds
+[2026-03-28T05:55:51.194+0530] {processor.py:161} INFO - Started process (PID=52559) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:55:51.195+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-28T05:55:51.195+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:55:51.195+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:55:51.211+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:55:51.211+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-28T05:55:51.211+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:55:51.211+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-28T05:55:51.212+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-28T05:55:51.238+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.044 seconds
+[2026-03-29T04:49:20.130+0530] {processor.py:161} INFO - Started process (PID=56853) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:49:20.130+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T04:49:20.131+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:49:20.130+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:49:20.144+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:49:20.144+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T04:49:20.145+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:49:20.145+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T04:49:20.145+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:49:20.168+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2026-03-29T04:50:53.927+0530] {processor.py:161} INFO - Started process (PID=56916) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:50:53.928+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T04:50:53.928+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:50:53.928+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:50:53.941+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:50:53.941+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T04:50:53.941+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:50:53.941+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T04:50:53.941+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:50:53.965+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.039 seconds
+[2026-03-29T04:54:22.542+0530] {processor.py:161} INFO - Started process (PID=57037) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:54:22.543+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T04:54:22.543+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:54:22.543+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:54:22.557+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:54:22.557+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T04:54:22.557+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:54:22.557+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T04:54:22.557+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:54:22.581+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2026-03-29T04:55:48.060+0530] {processor.py:161} INFO - Started process (PID=57102) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:55:48.061+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T04:55:48.061+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:55:48.061+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:55:48.076+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:55:48.076+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T04:55:48.076+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:55:48.076+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T04:55:48.076+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:55:48.100+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.041 seconds
+[2026-03-29T04:57:38.605+0530] {processor.py:161} INFO - Started process (PID=57186) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:57:38.605+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T04:57:38.605+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:57:38.605+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:57:38.619+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:57:38.619+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T04:57:38.620+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:57:38.620+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T04:57:38.620+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:57:38.643+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2026-03-29T04:59:28.380+0530] {processor.py:161} INFO - Started process (PID=57303) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:59:28.380+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T04:59:28.381+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:59:28.380+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:59:28.394+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:59:28.394+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T04:59:28.395+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:59:28.394+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T04:59:28.395+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T04:59:28.418+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.039 seconds
+[2026-03-29T05:01:23.494+0530] {processor.py:161} INFO - Started process (PID=57391) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:01:23.496+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T05:01:23.496+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:01:23.496+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:01:23.510+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:01:23.510+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T05:01:23.510+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:01:23.510+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T05:01:23.510+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:01:23.533+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds
+[2026-03-29T05:03:17.347+0530] {processor.py:161} INFO - Started process (PID=57485) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:03:17.348+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T05:03:17.348+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:03:17.348+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:03:17.363+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:03:17.363+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T05:03:17.363+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:03:17.363+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T05:03:17.363+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:03:17.387+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.041 seconds
+[2026-03-29T05:16:33.334+0530] {processor.py:161} INFO - Started process (PID=57677) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:16:33.335+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T05:16:33.335+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:16:33.335+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:16:33.348+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:16:33.348+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T05:16:33.349+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:16:33.349+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T05:16:33.349+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:16:33.372+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.039 seconds
+[2026-03-29T05:18:06.695+0530] {processor.py:161} INFO - Started process (PID=57738) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:18:06.696+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py for tasks to queue
+[2026-03-29T05:18:06.696+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:18:06.696+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:18:06.710+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:18:06.710+0530] {example_local_kubernetes_executor.py:40} WARNING - Could not import DAGs in example_local_kubernetes_executor.py
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py", line 38, in <module>
+    from kubernetes.client import models as k8s
+ModuleNotFoundError: No module named 'kubernetes'
+[2026-03-29T05:18:06.710+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:18:06.710+0530] {example_local_kubernetes_executor.py:41} WARNING - Install Kubernetes dependencies with: pip install apache-airflow[cncf.kubernetes]
+[2026-03-29T05:18:06.711+0530] {processor.py:842} WARNING - No viable dags retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py
+[2026-03-29T05:18:06.734+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_local_kubernetes_executor.py took 0.040 seconds

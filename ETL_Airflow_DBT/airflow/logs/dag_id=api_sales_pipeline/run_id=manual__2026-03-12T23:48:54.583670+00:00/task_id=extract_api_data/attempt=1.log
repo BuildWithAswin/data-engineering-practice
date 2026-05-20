@@ -1,0 +1,38 @@
+[2026-03-13T05:18:56.768+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-13T05:18:56.774+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:48:54.583670+00:00 [queued]>
+[2026-03-13T05:18:56.776+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:48:54.583670+00:00 [queued]>
+[2026-03-13T05:18:56.776+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-03-13T05:18:56.779+0530] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): extract_api_data> on 2026-03-12 23:48:54.583670+00:00
+[2026-03-13T05:18:56.783+0530] {standard_task_runner.py:63} INFO - Started process 47978 to run task
+[2026-03-13T05:18:56.785+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'api_sales_pipeline', 'extract_api_data', 'manual__2026-03-12T23:48:54.583670+00:00', '--job-id', '39', '--raw', '--subdir', 'DAGS_FOLDER/api_sales_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpd_zpowod']
+[2026-03-13T05:18:56.786+0530] {standard_task_runner.py:91} INFO - Job 39: Subtask extract_api_data
+[2026-03-13T05:18:56.806+0530] {task_command.py:426} INFO - Running <TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:48:54.583670+00:00 [running]> on host aswins-macbook-pro.local
+[2026-03-13T05:18:56.825+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='api_sales_pipeline' AIRFLOW_CTX_TASK_ID='extract_api_data' AIRFLOW_CTX_EXECUTION_DATE='2026-03-12T23:48:54.583670+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-12T23:48:54.583670+00:00'
+[2026-03-13T05:18:56.825+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-13T05:18:56.826+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-13T05:18:56.826+0530] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py", line 25, in extract_api_data
+    print("Starting API extraction")
+    ^^^^^
+UnboundLocalError: cannot access local variable 'print' where it is not associated with a value
+[2026-03-13T05:18:56.828+0530] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=api_sales_pipeline, task_id=extract_api_data, execution_date=20260312T234854, start_date=20260312T234856, end_date=20260312T234856
+[2026-03-13T05:18:56.831+0530] {standard_task_runner.py:110} ERROR - Failed to execute job 39 for task extract_api_data (cannot access local variable 'print' where it is not associated with a value; 47978)
+[2026-03-13T05:18:56.840+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2026-03-13T05:18:56.847+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-13T05:18:56.848+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

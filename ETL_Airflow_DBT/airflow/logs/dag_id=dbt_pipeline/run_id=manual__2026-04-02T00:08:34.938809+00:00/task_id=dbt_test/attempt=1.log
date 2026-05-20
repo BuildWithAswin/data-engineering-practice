@@ -1,0 +1,20 @@
+[2026-04-02T05:49:23.580+0530] {executor_loader.py:235} INFO - Loaded executor: SequentialExecutor
+[2026-04-02T05:49:23.580+0530] {logging_mixin.py:188} INFO - Sending to executor.
+[2026-04-02T05:49:23.580+0530] {base_executor.py:149} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_test', 'manual__2026-04-02T00:08:34.938809+00:00', '--local', '--pool', 'default_pool', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py']
+[2026-04-02T05:49:23.580+0530] {sequential_executor.py:74} INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_test', 'manual__2026-04-02T00:08:34.938809+00:00', '--local', '--pool', 'default_pool', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py']
+[2026-04-02T05:49:24.609+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-02T05:49:24.627+0530] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: dbt_pipeline.dbt_test manual__2026-04-02T00:08:34.938809+00:00 [upstream_failed]>, dependency 'Trigger Rule' FAILED: Task's trigger rule 'all_success' requires all upstream tasks to have succeeded, but found 1 non-success(es). upstream_states=_UpstreamTIStates(success=0, skipped=0, failed=1, upstream_failed=0, removed=0, done=1, success_setup=0, skipped_setup=0), upstream_task_ids={'dbt_run'}
+[2026-04-02T05:49:24.627+0530] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: dbt_pipeline.dbt_test manual__2026-04-02T00:08:34.938809+00:00 [upstream_failed]>, dependency 'Task Instance State' FAILED: Task is in the 'upstream_failed' state.
+[2026-04-02T05:49:24.628+0530] {local_task_job_runner.py:163} INFO - Task is not able to be run
+[2026-04-02T05:50:11.555+0530] {executor_loader.py:235} INFO - Loaded executor: SequentialExecutor
+[2026-04-02T05:50:11.555+0530] {logging_mixin.py:188} INFO - Sending to executor.
+[2026-04-02T05:50:11.555+0530] {base_executor.py:149} INFO - Adding to queue: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_test', 'manual__2026-04-02T00:08:34.938809+00:00', '--ignore-all-dependencies', '--local', '--pool', 'default_pool', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py']
+[2026-04-02T05:50:11.555+0530] {sequential_executor.py:74} INFO - Executing command: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_test', 'manual__2026-04-02T00:08:34.938809+00:00', '--ignore-all-dependencies', '--local', '--pool', 'default_pool', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py']
+[2026-04-02T05:50:12.745+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-02T05:50:12.759+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_test manual__2026-04-02T00:08:34.938809+00:00 [upstream_failed]>
+[2026-04-02T05:50:12.759+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_test manual__2026-04-02T00:08:34.938809+00:00 [upstream_failed]>
+[2026-04-02T05:50:12.759+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-04-02T05:50:12.769+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dbt_test> on 2026-04-02 00:08:34.938809+00:00
+[2026-04-02T05:50:12.779+0530] {standard_task_runner.py:63} INFO - Started process 24064 to run task
+[2026-04-02T05:50:12.782+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_test', 'manual__2026-04-02T00:08:34.938809+00:00', '--job-id', '15', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmp2ev7ngdl']
+[2026-04-02T05:50:12.784+0530] {standard_task_runner.py:91} INFO - Job 15: Subtask dbt_test

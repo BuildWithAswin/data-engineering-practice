@@ -1,0 +1,6 @@
+order_id,product,price,quantity,,,
+1,Apple,100,2,,,
+2,Banana,50,5,,,
+3,Apple,100,1,,,
+4,Orange,80,3,,,
+5,Banana,50,null,,,

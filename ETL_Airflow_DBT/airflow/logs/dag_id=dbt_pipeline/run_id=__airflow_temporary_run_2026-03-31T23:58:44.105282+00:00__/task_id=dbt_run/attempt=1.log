@@ -1,0 +1,13 @@
+[2026-04-01T05:28:45.710+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-01T05:28:45.715+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run __airflow_temporary_run_2026-03-31T23:58:44.105282+00:00__ [queued]>
+[2026-04-01T05:28:45.717+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run __airflow_temporary_run_2026-03-31T23:58:44.105282+00:00__ [queued]>
+[2026-04-01T05:28:45.717+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-04-01T05:28:45.721+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dbt_run> on 2026-03-31 00:00:00+00:00
+[2026-04-01T05:28:45.725+0530] {standard_task_runner.py:63} INFO - Started process 73266 to run task
+[2026-04-01T05:28:45.727+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_run', '__airflow_temporary_run_2026-03-31T23:58:44.105282+00:00__', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpjs5vnbti']
+[2026-04-01T05:28:45.729+0530] {standard_task_runner.py:91} INFO - Job 6: Subtask dbt_run
+[2026-04-01T05:28:55.775+0530] {local_task_job_runner.py:310} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2026-04-01T05:28:55.776+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-04-01T05:28:55.781+0530] {process_utils.py:132} INFO - Sending 15 to group 73266. PIDs of all processes in the group: [73266]
+[2026-04-01T05:28:55.781+0530] {process_utils.py:87} INFO - Sending the signal 15 to group 73266
+[2026-04-01T05:28:55.783+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=73266, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='05:28:45') (73266) terminated with exit code -15

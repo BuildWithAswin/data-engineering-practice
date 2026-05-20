@@ -1,0 +1,12 @@
+[2026-04-02T05:38:37.045+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-02T05:38:37.060+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-02T00:08:34.938809+00:00 [queued]>
+[2026-04-02T05:38:37.063+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-02T00:08:34.938809+00:00 [queued]>
+[2026-04-02T05:38:37.063+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-04-02T05:38:37.068+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-02 00:08:34.938809+00:00
+[2026-04-02T05:38:37.072+0530] {standard_task_runner.py:63} INFO - Started process 21274 to run task
+[2026-04-02T05:38:37.075+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_run', 'manual__2026-04-02T00:08:34.938809+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpietx1lb3']
+[2026-04-02T05:38:37.077+0530] {standard_task_runner.py:91} INFO - Job 13: Subtask dbt_run
+[2026-04-02T05:45:03.146+0530] {local_task_job_runner.py:124} ERROR - Received SIGTERM. Terminating subprocesses
+[2026-04-02T05:45:03.151+0530] {process_utils.py:132} INFO - Sending 15 to group 21274. PIDs of all processes in the group: [21274]
+[2026-04-02T05:45:03.151+0530] {process_utils.py:87} INFO - Sending the signal 15 to group 21274
+[2026-04-02T05:45:03.203+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

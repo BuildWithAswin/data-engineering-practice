@@ -1,0 +1,8 @@
+[2026-04-02T04:58:36.863+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-02T04:58:36.876+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T23:28:34.768930+00:00 [queued]>
+[2026-04-02T04:58:36.879+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T23:28:34.768930+00:00 [queued]>
+[2026-04-02T04:58:36.879+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-04-02T04:58:36.884+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-01 23:28:34.768930+00:00
+[2026-04-02T04:58:36.888+0530] {standard_task_runner.py:63} INFO - Started process 14338 to run task
+[2026-04-02T04:58:36.891+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_run', 'manual__2026-04-01T23:28:34.768930+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpp1ynz826']
+[2026-04-02T04:58:36.894+0530] {standard_task_runner.py:91} INFO - Job 8: Subtask dbt_run

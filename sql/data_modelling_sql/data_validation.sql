@@ -8,7 +8,7 @@ WHERE updated_at >= '2026-01-19 00:00:00'
 --6️⃣ Group-Level Row Count Validation (Stronger Check)
 Instead of one total count, compare grouped counts.
 
-Example: Orders per day
+--Example: Orders per day
 -- Source
 SELECT order_date, COUNT(*) AS cnt
 FROM orders
@@ -21,7 +21,7 @@ GROUP BY order_date;
 
 
 --3️⃣ SQL to Directly Compare Source vs Target
-Example: Join-based reconciliation
+--Example: Join-based reconciliation
 SELECT
     s.order_date,
     s.cnt AS source_cnt,

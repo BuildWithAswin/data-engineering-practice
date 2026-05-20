@@ -26,3 +26,6 @@ BEGIN
     END LOOP;
 END;
 $$;
+
+CALL create_fact_orders_partitions();
+

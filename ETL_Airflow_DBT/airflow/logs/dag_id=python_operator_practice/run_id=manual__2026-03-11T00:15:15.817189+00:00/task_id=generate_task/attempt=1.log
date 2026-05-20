@@ -1,0 +1,18 @@
+[2026-03-11T05:45:17.175+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-11T05:45:17.181+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_operator_practice.generate_task manual__2026-03-11T00:15:15.817189+00:00 [queued]>
+[2026-03-11T05:45:17.183+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_operator_practice.generate_task manual__2026-03-11T00:15:15.817189+00:00 [queued]>
+[2026-03-11T05:45:17.183+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-03-11T05:45:17.186+0530] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): generate_task> on 2026-03-11 00:15:15.817189+00:00
+[2026-03-11T05:45:17.189+0530] {standard_task_runner.py:63} INFO - Started process 35992 to run task
+[2026-03-11T05:45:17.192+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'python_operator_practice', 'generate_task', 'manual__2026-03-11T00:15:15.817189+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/python_operator_practice.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpvavz8nxn']
+[2026-03-11T05:45:17.193+0530] {standard_task_runner.py:91} INFO - Job 24: Subtask generate_task
+[2026-03-11T05:45:17.212+0530] {task_command.py:426} INFO - Running <TaskInstance: python_operator_practice.generate_task manual__2026-03-11T00:15:15.817189+00:00 [running]> on host aswins-macbook-pro.local
+[2026-03-11T05:45:17.231+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='python_operator_practice' AIRFLOW_CTX_TASK_ID='generate_task' AIRFLOW_CTX_EXECUTION_DATE='2026-03-11T00:15:15.817189+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-11T00:15:15.817189+00:00'
+[2026-03-11T05:45:17.231+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-11T05:45:17.232+0530] {logging_mixin.py:188} INFO - Generated number: 29
+[2026-03-11T05:45:17.234+0530] {python.py:237} INFO - Done. Returned value was: None
+[2026-03-11T05:45:17.235+0530] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-03-11T05:45:17.236+0530] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=python_operator_practice, task_id=generate_task, execution_date=20260311T001515, start_date=20260311T001517, end_date=20260311T001517
+[2026-03-11T05:45:17.246+0530] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-03-11T05:45:17.255+0530] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-03-11T05:45:17.256+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

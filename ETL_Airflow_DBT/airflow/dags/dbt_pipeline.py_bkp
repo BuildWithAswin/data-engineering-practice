@@ -1,0 +1,33 @@
+from airflow import DAG
+from airflow.operators.bash import BashOperator
+from datetime import datetime
+
+DBT_PATH = "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/dbt/dbt_env/bin/dbt"
+PROJECT_PATH = "/Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/dbt_project"
+
+with DAG(
+    dag_id='dbt_pipeline',
+    start_date=datetime(2024, 1, 1),
+    schedule_interval=None,
+    catchup=False
+) as dag:
+
+    dbt_run = BashOperator(
+        task_id='dbt_run',
+        bash_command=f'cd {PROJECT_PATH} && {DBT_PATH} run',
+        env={"DBT_PROFILES_DIR": "/Users/aswin/.dbt"}
+    )
+
+    dbt_test = BashOperator(
+        task_id='dbt_test',
+        bash_command=f'cd {PROJECT_PATH} && {DBT_PATH} test',
+        env={"DBT_PROFILES_DIR": "/Users/aswin/.dbt"}
+    )
+
+    dbt_docs = BashOperator(
+        task_id='dbt_docs',
+        bash_command=f'cd {PROJECT_PATH} && {DBT_PATH} docs generate',
+        env={"DBT_PROFILES_DIR": "/Users/aswin/.dbt"}
+    )
+
+    dbt_run >> dbt_test >> dbt_docs

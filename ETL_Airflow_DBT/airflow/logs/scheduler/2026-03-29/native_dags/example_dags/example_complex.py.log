@@ -1,0 +1,11 @@
+[2026-03-29T05:31:24.377+0530] {processor.py:161} INFO - Started process (PID=57977) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-03-29T05:31:24.378+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2026-03-29T05:31:24.378+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:24.378+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-03-29T05:31:24.383+0530] {processor.py:840} INFO - DAG(s) 'example_complex' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2026-03-29T05:31:24.444+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:24.444+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_complex
+[2026-03-29T05:31:24.447+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:24.446+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_complex
+[2026-03-29T05:31:24.448+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:24.448+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:example_complex
+[2026-03-29T05:31:24.448+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:24.448+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:31:24.451+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:24.451+0530] {dag.py:3118} INFO - Creating ORM DAG for example_complex
+[2026-03-29T05:31:24.451+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:24.451+0530] {dag.py:3954} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2026-03-29T05:31:24.458+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.081 seconds

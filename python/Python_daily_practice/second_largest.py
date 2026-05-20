@@ -6,8 +6,8 @@ def second_largest(arr):
             if arr[j] < arr[min_index]:
                 min_index = j
         arr[i], arr[min_index] = arr[min_index], arr[i]
-    second_largest = len[arr] - 1
-    return second_largest
+    second_lar = len(arr) - 1
+    return second_lar
 
 
 arr = [4, 3, 2, 1]

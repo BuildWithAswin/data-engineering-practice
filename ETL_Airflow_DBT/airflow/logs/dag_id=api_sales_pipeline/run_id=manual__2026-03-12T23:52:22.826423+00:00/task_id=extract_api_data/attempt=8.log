@@ -1,0 +1,16 @@
+[2026-03-27T12:13:49.201+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T12:13:49.207+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:52:22.826423+00:00 [queued]>
+[2026-03-27T12:13:49.208+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:52:22.826423+00:00 [queued]>
+[2026-03-27T12:13:49.208+0530] {taskinstance.py:2303} INFO - Starting attempt 8 of 1
+[2026-03-27T12:13:49.212+0530] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): extract_api_data> on 2026-03-12 23:52:22.826423+00:00
+[2026-03-27T12:13:49.216+0530] {standard_task_runner.py:63} INFO - Started process 47876 to run task
+[2026-03-27T12:13:49.219+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'api_sales_pipeline', 'extract_api_data', 'manual__2026-03-12T23:52:22.826423+00:00', '--job-id', '58', '--raw', '--subdir', 'DAGS_FOLDER/api_sales_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmps2cquvi4']
+[2026-03-27T12:13:49.221+0530] {standard_task_runner.py:91} INFO - Job 58: Subtask extract_api_data
+[2026-03-27T12:14:07.333+0530] {local_task_job_runner.py:124} ERROR - Received SIGTERM. Terminating subprocesses
+[2026-03-27T12:14:07.337+0530] {process_utils.py:132} INFO - Sending 15 to group 47876. PIDs of all processes in the group: [47876]
+[2026-03-27T12:14:07.337+0530] {process_utils.py:87} INFO - Sending the signal 15 to group 47876
+[2026-03-27T12:14:07.390+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-03-27T12:14:08.742+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-27T12:14:08.748+0530] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:52:22.826423+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2026-03-27T12:14:08.750+0530] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:52:22.826423+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2026-03-27T12:14:08.750+0530] {local_task_job_runner.py:163} INFO - Task is not able to be run

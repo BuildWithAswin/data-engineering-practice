@@ -1,0 +1,7 @@
+[2026-03-29T05:30:11.660+0530] {processor.py:161} INFO - Started process (PID=57915) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/dbt_pipeline.py
+[2026-03-29T05:30:11.661+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/dbt_pipeline.py for tasks to queue
+[2026-03-29T05:30:11.661+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:30:11.661+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/dbt_pipeline.py
+[2026-03-29T05:30:11.667+0530] {processor.py:840} INFO - DAG(s) 'dbt_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/dbt_pipeline.py
+[2026-03-29T05:30:11.704+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:30:11.704+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:30:11.708+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:30:11.708+0530] {dag.py:3954} INFO - Setting next_dagrun for dbt_pipeline to None, run_after=None
+[2026-03-29T05:30:11.717+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/dbt_pipeline.py took 0.058 seconds

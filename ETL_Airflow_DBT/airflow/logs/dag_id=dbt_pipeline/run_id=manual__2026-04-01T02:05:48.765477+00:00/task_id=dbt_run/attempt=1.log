@@ -1,0 +1,13 @@
+[2026-04-01T07:35:50.488+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-01T07:35:50.502+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T02:05:48.765477+00:00 [queued]>
+[2026-04-01T07:35:50.506+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T02:05:48.765477+00:00 [queued]>
+[2026-04-01T07:35:50.506+0530] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2026-04-01T07:35:50.513+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-01 02:05:48.765477+00:00
+[2026-04-01T07:35:50.517+0530] {standard_task_runner.py:63} INFO - Started process 80612 to run task
+[2026-04-01T07:35:50.519+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_run', 'manual__2026-04-01T02:05:48.765477+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpc3_upck5']
+[2026-04-01T07:35:50.521+0530] {standard_task_runner.py:91} INFO - Job 6: Subtask dbt_run
+[2026-04-01T10:20:32.534+0530] {local_task_job_runner.py:214} ERROR - Heartbeat time limit exceeded!
+[2026-04-01T10:20:32.569+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-04-01T10:20:32.577+0530] {process_utils.py:132} INFO - Sending 15 to group 80612. PIDs of all processes in the group: [80612]
+[2026-04-01T10:20:32.577+0530] {process_utils.py:87} INFO - Sending the signal 15 to group 80612
+[2026-04-01T10:20:32.585+0530] {process_utils.py:80} INFO - Process psutil.Process(pid=80612, status='terminated', exitcode=<Negsignal.SIGTERM: -15>, started='07:35:50') (80612) terminated with exit code -15

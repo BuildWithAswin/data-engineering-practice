@@ -1,0 +1,21 @@
+name: dbt_project
+version: 1.0
+config-version: 2
+
+profile: default
+
+model-paths: ["models"]
+snapshot-paths: ["snapshots"]
+
+models:
+  dbt_project:
+    staging:
+      materialized: view
+    intermediate:
+      materialized: view
+    marts:
+      materialized: table
+
+snapshots:
+  dbt_project:
+    +target_schema: snapshots

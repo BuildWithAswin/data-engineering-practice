@@ -1,0 +1,15 @@
+[2026-04-02T05:14:40.628+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-02T05:14:40.644+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T23:28:34.768930+00:00 [queued]>
+[2026-04-02T05:14:40.647+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T23:28:34.768930+00:00 [queued]>
+[2026-04-02T05:14:40.648+0530] {taskinstance.py:2303} INFO - Starting attempt 2 of 1
+[2026-04-02T05:14:40.654+0530] {taskinstance.py:2327} INFO - Executing <Task(BashOperator): dbt_run> on 2026-04-01 23:28:34.768930+00:00
+[2026-04-02T05:14:40.665+0530] {standard_task_runner.py:63} INFO - Started process 17621 to run task
+[2026-04-02T05:14:40.668+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'dbt_pipeline', 'dbt_run', 'manual__2026-04-01T23:28:34.768930+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/dbt_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmp98kgv2qf']
+[2026-04-02T05:14:40.670+0530] {standard_task_runner.py:91} INFO - Job 10: Subtask dbt_run
+[2026-04-02T05:28:06.866+0530] {local_task_job_runner.py:240} INFO - Task exited with return code -15
+[2026-04-02T05:28:06.889+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-04-02T05:28:06.890+0530] {local_task_job_runner.py:222} INFO - ::endgroup::
+[2026-04-02T05:28:08.085+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-04-02T05:28:08.095+0530] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T23:28:34.768930+00:00 [running]>, dependency 'Task Instance Not Running' FAILED: Task is in the running state
+[2026-04-02T05:28:08.098+0530] {taskinstance.py:2063} INFO - Dependencies not met for <TaskInstance: dbt_pipeline.dbt_run manual__2026-04-01T23:28:34.768930+00:00 [running]>, dependency 'Task Instance State' FAILED: Task is in the 'running' state.
+[2026-04-02T05:28:08.099+0530] {local_task_job_runner.py:163} INFO - Task is not able to be run

@@ -1,0 +1,8 @@
+[2026-03-28T05:37:59.962+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-28T05:37:59.967+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:52:22.826423+00:00 [queued]>
+[2026-03-28T05:37:59.969+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:52:22.826423+00:00 [queued]>
+[2026-03-28T05:37:59.969+0530] {taskinstance.py:2303} INFO - Starting attempt 11 of 1
+[2026-03-28T05:37:59.973+0530] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): extract_api_data> on 2026-03-12 23:52:22.826423+00:00
+[2026-03-28T05:37:59.977+0530] {standard_task_runner.py:63} INFO - Started process 52211 to run task
+[2026-03-28T05:37:59.980+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'api_sales_pipeline', 'extract_api_data', 'manual__2026-03-12T23:52:22.826423+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/api_sales_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpipb8nuy8']
+[2026-03-28T05:37:59.982+0530] {standard_task_runner.py:91} INFO - Job 71: Subtask extract_api_data

@@ -1,0 +1,14 @@
+[2026-03-13T05:03:14.239+0530] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-03-13T05:03:14.245+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:14:25.842764+00:00 [queued]>
+[2026-03-13T05:03:14.247+0530] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:14:25.842764+00:00 [queued]>
+[2026-03-13T05:03:14.247+0530] {taskinstance.py:2303} INFO - Starting attempt 3 of 1
+[2026-03-13T05:03:14.251+0530] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): extract_api_data> on 2026-03-12 23:14:25.842764+00:00
+[2026-03-13T05:03:14.254+0530] {standard_task_runner.py:63} INFO - Started process 47274 to run task
+[2026-03-13T05:03:14.257+0530] {standard_task_runner.py:90} INFO - Running: ['airflow', 'tasks', 'run', 'api_sales_pipeline', 'extract_api_data', 'manual__2026-03-12T23:14:25.842764+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/api_sales_pipeline.py', '--cfg-path', '/var/folders/yf/s9kvy00d6bgc6s0rr7h99tgm0000gn/T/tmpl8j4pwka']
+[2026-03-13T05:03:14.258+0530] {standard_task_runner.py:91} INFO - Job 37: Subtask extract_api_data
+[2026-03-13T05:03:14.273+0530] {task_command.py:426} INFO - Running <TaskInstance: api_sales_pipeline.extract_api_data manual__2026-03-12T23:14:25.842764+00:00 [running]> on host aswins-macbook-pro.local
+[2026-03-13T05:03:14.293+0530] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='api_sales_pipeline' AIRFLOW_CTX_TASK_ID='extract_api_data' AIRFLOW_CTX_EXECUTION_DATE='2026-03-12T23:14:25.842764+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-03-12T23:14:25.842764+00:00'
+[2026-03-13T05:03:14.294+0530] {taskinstance.py:430} INFO - ::endgroup::
+[2026-03-13T05:11:36.806+0530] {local_task_job_runner.py:240} INFO - Task exited with return code -9
+[2026-03-13T05:11:36.816+0530] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-03-13T05:11:36.816+0530] {local_task_job_runner.py:222} INFO - ::endgroup::

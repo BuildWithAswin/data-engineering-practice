@@ -1,0 +1,88 @@
+[2026-03-28T05:52:52.856+0530] {processor.py:161} INFO - Started process (PID=52420) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-28T05:52:52.856+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-28T05:52:52.856+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:52:52.856+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-28T05:52:53.177+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-28T05:52:53.179+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-28T05:52:53.234+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:52:53.234+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T05:52:53.236+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:52:53.236+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-28T05:52:53.242+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.388 seconds
+[2026-03-28T05:54:54.589+0530] {processor.py:161} INFO - Started process (PID=52517) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-28T05:54:54.589+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-28T05:54:54.589+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:54:54.589+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-28T05:54:54.948+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-28T05:54:54.950+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-28T05:54:54.983+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:54:54.983+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-28T05:54:54.987+0530] {logging_mixin.py:188} INFO - [2026-03-28T05:54:54.987+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-28T05:54:54.994+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.407 seconds
+[2026-03-29T04:49:52.707+0530] {processor.py:161} INFO - Started process (PID=56875) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:49:52.708+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T04:49:52.708+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:49:52.708+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:49:53.036+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T04:49:53.038+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:49:53.067+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:49:53.067+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T04:49:53.070+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:49:53.070+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T04:49:53.076+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.371 seconds
+[2026-03-29T04:51:57.274+0530] {processor.py:161} INFO - Started process (PID=56962) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:51:57.274+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T04:51:57.275+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:51:57.275+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:51:57.598+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T04:51:57.600+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:51:57.629+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:51:57.629+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T04:51:57.632+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:51:57.632+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T04:51:57.638+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.365 seconds
+[2026-03-29T04:54:50.862+0530] {processor.py:161} INFO - Started process (PID=57058) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:54:50.864+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T04:54:50.864+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:54:50.864+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:54:51.205+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T04:54:51.207+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:54:51.236+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:54:51.236+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T04:54:51.239+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:54:51.239+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T04:54:51.246+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.384 seconds
+[2026-03-29T04:56:43.560+0530] {processor.py:161} INFO - Started process (PID=57148) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:56:43.561+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T04:56:43.561+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:56:43.561+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:56:43.904+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T04:56:43.906+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:56:43.934+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:56:43.934+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T04:56:43.938+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:56:43.938+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T04:56:43.943+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.384 seconds
+[2026-03-29T04:58:32.186+0530] {processor.py:161} INFO - Started process (PID=57257) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:58:32.186+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T04:58:32.187+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:58:32.186+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:58:32.522+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T04:58:32.524+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T04:58:32.555+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:58:32.555+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T04:58:32.559+0530] {logging_mixin.py:188} INFO - [2026-03-29T04:58:32.559+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T04:58:32.564+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.380 seconds
+[2026-03-29T05:00:26.998+0530] {processor.py:161} INFO - Started process (PID=57351) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:00:26.999+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T05:00:26.999+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:00:26.999+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:00:27.332+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T05:00:27.334+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:00:27.363+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:00:27.363+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:00:27.366+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:00:27.366+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T05:00:27.372+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.375 seconds
+[2026-03-29T05:02:22.803+0530] {processor.py:161} INFO - Started process (PID=57444) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:02:22.804+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T05:02:22.804+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:02:22.804+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:02:23.124+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T05:02:23.126+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:02:23.154+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:02:23.154+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:02:23.158+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:02:23.157+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T05:02:23.163+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.361 seconds
+[2026-03-29T05:17:04.332+0530] {processor.py:161} INFO - Started process (PID=57697) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:17:04.333+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T05:17:04.334+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:17:04.334+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:17:04.644+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T05:17:04.646+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:17:04.675+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:17:04.675+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:17:04.678+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:17:04.678+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T05:17:04.684+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.352 seconds
+[2026-03-29T05:19:12.399+0530] {processor.py:161} INFO - Started process (PID=57784) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:19:12.400+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py for tasks to queue
+[2026-03-29T05:19:12.401+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:19:12.401+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:19:12.739+0530] {logging_mixin.py:188} INFO - Data loaded into public.sales
+[2026-03-29T05:19:12.741+0530] {processor.py:840} INFO - DAG(s) 'api_sales_pipeline' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py
+[2026-03-29T05:19:12.770+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:19:12.770+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:19:12.774+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:19:12.774+0530] {dag.py:3954} INFO - Setting next_dagrun for api_sales_pipeline to None, run_after=None
+[2026-03-29T05:19:12.779+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/api_sales_pipeline.py took 0.381 seconds

@@ -22,9 +22,9 @@ order by number_of_orders desc
 
 --Latest order from each customer
 
-select c.customer_name,
-o.order_id,
-o.order_date
+select customer_name,
+order_id,
+order_date
 from
 (select
 c.customer_name,
@@ -36,4 +36,13 @@ from customers c
 JOIN orders o on o.customer_id = c.customer_id 
 ) t
 where rn = 1;
+
+--Find duplicate emails in the customers table.
+select customer_name,email from
+(select customer_name,email,
+ROW_NUMBER() OVER(partition by email order by customer_id desc) as rn
+from customers
+) t 
+where rn > 1
+
 

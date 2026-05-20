@@ -1,0 +1,11 @@
+[2026-03-29T05:31:35.114+0530] {processor.py:161} INFO - Started process (PID=57985) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-03-29T05:31:35.115+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py for tasks to queue
+[2026-03-29T05:31:35.115+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:35.115+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-03-29T05:31:35.120+0530] {processor.py:840} INFO - DAG(s) 'example_bash_operator' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py
+[2026-03-29T05:31:35.179+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:35.179+0530] {override.py:1829} INFO - Created Permission View: can delete on DAG:example_bash_operator
+[2026-03-29T05:31:35.182+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:35.181+0530] {override.py:1829} INFO - Created Permission View: can edit on DAG:example_bash_operator
+[2026-03-29T05:31:35.183+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:35.183+0530] {override.py:1829} INFO - Created Permission View: can read on DAG:example_bash_operator
+[2026-03-29T05:31:35.183+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:35.183+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-29T05:31:35.186+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:35.186+0530] {dag.py:3118} INFO - Creating ORM DAG for example_bash_operator
+[2026-03-29T05:31:35.189+0530] {logging_mixin.py:188} INFO - [2026-03-29T05:31:35.189+0530] {dag.py:3954} INFO - Setting next_dagrun for example_bash_operator to 2026-03-28 00:00:00+00:00, run_after=2026-03-29 00:00:00+00:00
+[2026-03-29T05:31:35.195+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/airflow_env/lib/python3.11/site-packages/airflow/example_dags/example_bash_operator.py took 0.081 seconds

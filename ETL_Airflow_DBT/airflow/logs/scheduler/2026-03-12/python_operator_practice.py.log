@@ -1,0 +1,77 @@
+[2026-03-13T04:43:48.390+0530] {processor.py:161} INFO - Started process (PID=47028) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T04:43:48.390+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T04:43:48.390+0530] {logging_mixin.py:188} INFO - [2026-03-13T04:43:48.390+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T04:43:48.400+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T04:43:48.428+0530] {logging_mixin.py:188} INFO - [2026-03-13T04:43:48.428+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T04:43:48.432+0530] {logging_mixin.py:188} INFO - [2026-03-13T04:43:48.432+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T04:43:48.438+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.050 seconds
+[2026-03-13T05:11:39.466+0530] {processor.py:161} INFO - Started process (PID=47433) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:11:39.466+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:11:39.466+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:11:39.466+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:11:39.477+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:11:39.506+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:11:39.506+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:11:39.509+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:11:39.509+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:11:39.515+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.051 seconds
+[2026-03-13T05:12:30.629+0530] {processor.py:161} INFO - Started process (PID=47517) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:12:30.629+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:12:30.630+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:12:30.630+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:12:30.640+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:12:30.669+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:12:30.669+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:12:30.672+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:12:30.672+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:12:30.678+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.050 seconds
+[2026-03-13T05:13:11.471+0530] {processor.py:161} INFO - Started process (PID=47605) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:13:11.472+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:13:11.473+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:13:11.473+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:13:11.483+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:13:11.512+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:13:11.512+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:13:11.515+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:13:11.515+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:13:11.521+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.051 seconds
+[2026-03-13T05:13:51.757+0530] {processor.py:161} INFO - Started process (PID=47682) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:13:51.757+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:13:51.758+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:13:51.758+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:13:51.770+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:13:51.803+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:13:51.803+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:13:51.807+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:13:51.807+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:13:51.813+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.058 seconds
+[2026-03-13T05:14:32.692+0530] {processor.py:161} INFO - Started process (PID=47778) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:14:32.693+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:14:32.693+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:14:32.693+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:14:32.704+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:14:32.732+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:14:32.732+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:14:32.736+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:14:32.736+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:14:32.741+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.050 seconds
+[2026-03-13T05:15:13.740+0530] {processor.py:161} INFO - Started process (PID=47839) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:15:13.741+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:15:13.741+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:15:13.741+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:15:13.751+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:15:13.779+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:15:13.779+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:15:13.783+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:15:13.783+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:15:13.788+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.050 seconds
+[2026-03-13T05:18:33.075+0530] {processor.py:161} INFO - Started process (PID=47954) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:18:33.076+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:18:33.076+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:18:33.076+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:18:33.085+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:18:33.113+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:18:33.113+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:18:33.116+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:18:33.116+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:18:33.122+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.048 seconds
+[2026-03-13T05:19:56.182+0530] {processor.py:161} INFO - Started process (PID=48025) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:19:56.183+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:19:56.183+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:19:56.183+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:19:56.193+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:19:56.221+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:19:56.221+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:19:56.225+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:19:56.225+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:19:56.230+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.049 seconds
+[2026-03-13T05:20:48.702+0530] {processor.py:161} INFO - Started process (PID=48096) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:20:48.703+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:20:48.703+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:20:48.703+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:20:48.714+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:20:48.745+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:20:48.745+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:20:48.749+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:20:48.749+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:20:48.755+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.054 seconds
+[2026-03-13T05:21:40.063+0530] {processor.py:161} INFO - Started process (PID=48165) to work on /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:21:40.065+0530] {processor.py:830} INFO - Processing file /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py for tasks to queue
+[2026-03-13T05:21:40.065+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:21:40.065+0530] {dagbag.py:540} INFO - Filling up the DagBag from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:21:40.075+0530] {processor.py:840} INFO - DAG(s) 'python_operator_practice' retrieved from /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py
+[2026-03-13T05:21:40.103+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:21:40.103+0530] {dag.py:3096} INFO - Sync 1 DAGs
+[2026-03-13T05:21:40.107+0530] {logging_mixin.py:188} INFO - [2026-03-13T05:21:40.106+0530] {dag.py:3954} INFO - Setting next_dagrun for python_operator_practice to None, run_after=None
+[2026-03-13T05:21:40.112+0530] {processor.py:183} INFO - Processing /Users/aswin/Documents/data-engineering-practice/ETL_Airflow_DBT/airflow/dags/python_operator_practice.py took 0.050 seconds
